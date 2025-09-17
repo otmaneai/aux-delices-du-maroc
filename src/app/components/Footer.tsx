@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/gallery/logo.webp"
+                src="/gallery/logo-new.png"
                 alt="Aux Délices du Maroc logo"
                 width={40}
                 height={40}
@@ -122,7 +122,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-small text-gray-600">
-            © {currentYear} Aux Délices du Maroc. Tous droits réservés.{" "}
+            {currentYear} Aux Délices du Maroc. Tous droits réservés.{" "}
             <span className="mx-2">|</span>{" "}
             <Link
               href="/mention-legales"

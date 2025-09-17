@@ -30,13 +30,15 @@ const Navbar = () => {
           className="flex items-center gap-3 text-3xl font-serif text-primary font-bold"
         >
           <Image
-            src="/gallery/logo.webp"
-            alt="Aux Délices du Maroc logo"
+            src="/gallery/logo-new.png"
+            alt="Aux Délices du Maroc Logo"
             width={40}
             height={40}
-            className="mix-blend-multiply"
+            className="h-10 w-auto"
           />
-          <span>Aux Délices du Maroc</span>
+          <span className="ml-2 text-xl font-bold text-charcoal">
+            Aux Délices du Maroc
+          </span>
         </Link>
 
         {/* Desktop Menu */}

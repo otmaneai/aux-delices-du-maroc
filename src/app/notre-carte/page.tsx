@@ -1,123 +1,141 @@
-"use client";
-
-import React, { useMemo } from "react";
-import Image from "next/image";
-import PageHero from "../components/PageHero";
-import { convexReact, api } from "@/lib/convex";
-import Link from "next/link";
-
-// Interface for a single menu item
-type MenuItem = {
-  _id?: any;
-  name: string;
-  description?: string;
-  price: number;
-  imageUrl?: string;
-};
-
-type Section = {
-  _id?: any;
-  title: string;
-  items: MenuItem[];
-  imageUrl?: string;
-};
-
-// Interface for the props of a menu section component
-interface MenuSectionProps {
-  title: string;
-  items: MenuItem[];
-  image: string;
-  imagePosition: "left" | "right";
-}
-
 // The complete menu data, structured for easy mapping
 const menuData: Omit<MenuSectionProps, "imagePosition">[] = [
+  {
+    title: "Les Apéritifs et Digestifs",
+    image: "/gallery/boissons.webp",
+    items: [
+      {
+        name: "KIR ROYAL (Cassis, mûre, framboise, fraise, pêche) 10 Cl",
+        price: 8.5,
+      },
+      {
+        name: "KIR (Cassis, mûre, framboise, fraise, pêche) 10 Cl",
+        price: 6.0,
+      },
+      { name: "RICARD 2,5CL", price: 6.5 },
+      { name: "PORTO Blanc et Rouge 5 Cl", price: 6.5 },
+      { name: "MARTINI Blanc et Rouge 5 Cl", price: 6.5 },
+      { name: "COUPE DE CHAMPAGNE 8 Cl", price: 8.5 },
+      { name: "HEINEKEN, 1664 33 Cl", price: 4.9 },
+      { name: "BIERE CASABLANCA 33 Cl", price: 6.5 },
+      { name: "J&B 4 Cl", price: 6.8 },
+      { name: "JOHNNIE WALKER 4 Cl", price: 7.5 },
+      { name: "CHIVAS / JACK DANIELS 4 Cl", price: 8.5 },
+      { name: "WHISKY + COCA COLA", price: 9.5 },
+      { name: "BOKHA, GET 27", price: 8.0 },
+    ],
+  },
+  {
+    title: "Cocktails Soft",
+    image: "/gallery/2.webp",
+    items: [
+      { name: "DIABOLO Menthe, Grenadine Ou Fraise", price: 5.0 },
+      { name: "COCKTAIL FRUIT 10 Cl", price: 6.5 },
+      { name: "VIRGIN MOJITO 10 Cl", price: 7.0 },
+    ],
+  },
+  {
+    title: "Cocktails avec Alcool",
+    image: "/gallery/1.webp",
+    items: [
+      {
+        name: "COCKTAIL MAISON 10 Cl (vodka,malibu, boukha, jus de fruits)",
+        price: 9.0,
+      },
+      { name: "MOJITO", price: 8.5 },
+      { name: "PIÑA COLADA", price: 8.5 },
+      { name: "AMERICANO MAISON 10 Cl", price: 6.9 },
+      { name: "APEROL SPRITZ", price: 8.5 },
+      { name: "VODKA ORANGE 10 Cl", price: 7.5 },
+      { name: "BOUKHA ORANGE 10 Cl", price: 7.5 },
+      { name: "GIN TONIC 10 Cl", price: 8.5 },
+    ],
+  },
+  {
+    title: "Les Champagnes",
+    image: "/gallery/3.webp",
+    items: [
+      { name: "CHARLES MONTAIN BRUT 75 Cl", price: 49.0 },
+      { name: "CORDON ROUGE 75 Cl", price: 58.0 },
+    ],
+  },
+  {
+    title: "Les Boissons Fraîches",
+    image: "/gallery/boissons.webp",
+    items: [
+      { name: "ORANGINA, SCHWEPPES, LIPTON ICED TEA 25 Cl", price: 4.0 },
+      { name: "COCA, PERRIER 33 Cl", price: 4.0 },
+      {
+        name: "JUS (ORANGE, POMME, ANANAS, BANANE, ABRICOT, TOMATE) 25 Cl",
+        price: 4.0,
+      },
+      { name: "EAU EVIAN, BADOIT,SAN PELLEGRINO 50 Cl", price: 4.0 },
+      { name: "EAU EVIAN, BADOIT,SAN PELLEGRINO 100 Cl", price: 6.0 },
+    ],
+  },
+  {
+    title: "Les Boissons Chaudes",
+    image: "/gallery/4.webp",
+    items: [
+      { name: "CAFÉ espresso, allongé, décafeiné", price: 3.0 },
+      { name: "THÉ À LA MENTHE Individuel", price: 3.5 },
+    ],
+  },
   {
     title: "Entrées Froides",
     image: "/gallery/entrees-froides.webp",
     items: [
       {
-        name: "Salade Marocaine",
+        name: "SALADE MAROCAINE",
         price: 6.9,
-        description: "Salade de tomates, poivrons, oignons et olives",
+        description: "Salade De Tomates, Poivrons, Oignons Et Olives",
       },
       {
-        name: "Zaalouk",
+        name: "ZAALOUK",
         price: 7.5,
-        description: "Caviar d'aubergines à la marocaine",
+        description: "Caviar D’aubergines Et Tomates Marinées",
       },
       {
-        name: "Slata Mechouia",
-        price: 6.9,
-        description: "Poivrons, tomates grillés et ail",
+        name: "SLATA MECHOUIA",
+        price: 7.5,
+        description: "Poivrons Et Tomates Grillés et Ail",
       },
-      { name: "Avocat Crevettes", price: 7.0, description: "" },
+      { name: "AVOCAT CREVETTES", price: 8.0 },
     ],
   },
   {
     title: "Entrées Chaudes",
     image: "/gallery/entrees-chaudes.webp",
     items: [
+      { name: "HARIRA MAROCAINE", price: 8.0 },
+      { name: "BRICK À L’ŒUF", price: 5.5 },
+      { name: "BRICK DE CHÈVRE AU MIEL", price: 6.9 },
+      { name: "BRICK KEFTA ET A L'ŒUF", price: 6.9 },
+      { name: "BRICK AU THON ET À L’ŒUF", price: 6.9 },
+      { name: "BRICK AU POULET ET A L'ŒUF", price: 6.9 },
       {
-        name: "Harira",
-        price: 8.0,
-        description: "Soupe traditionnelle marocaine",
-      },
-      { name: "Brick à l’œuf", price: 5.0, description: "" },
-      { name: "Brick de chèvre au miel", price: 6.9, description: "" },
-      {
-        name: "Brick kefta maison et à l’œuf",
-        price: 6.9,
-        description: "",
-      },
-      { name: "Brick au thon et à l’œuf", price: 6.9, description: "" },
-      {
-        name: "Brick aux crevettes et à l’œuf",
-        price: 6.9,
-        description: "",
-      },
-      { name: "Brick au poulet et à l’œuf", price: 6.9, description: "" },
-      {
-        name: "Pastilla au poulet",
-        price: 9.5,
-        description: "Feuilleté aux amandes et poulet",
-      },
-      {
-        name: "Pastilla aux fruits de mer",
+        name: "PASTILLA AU POULET",
         price: 14.5,
-        description:
-          "Feuilletée et sa farce crevettes, moules, calamars et vermicelles",
+        description: "Feuilleté D’émincé De Poulet, Amandes Grillées",
       },
       {
-        name: "Chakchouka",
-        price: 8.0,
-        description:
-          "Feuilletée et sa farce crevettes, moules, calamars et vermicelles",
+        name: "CHAKCHOUKA",
+        price: 8.5,
+        description: "Poivrons marinés, oignons, tomates, merguez, œufs",
       },
     ],
   },
   {
-    title: "Salades",
+    title: "Nos Salades (Plat)",
     image: "/gallery/salades.webp",
     items: [
       {
-        name: "Salade Composée",
+        name: "SALADE COMPOSÉE",
         price: 16.5,
         description: "Avocat, salade verte, thon, maïs, tomates et olives",
       },
       {
-        name: "Salade Fraicheur",
-        price: 16.5,
-        description:
-          "Concombre, salade, tomate, endives, œufs, carottes rapées",
-      },
-      {
-        name: "Salade Oceane",
-        price: 18.0,
-        description: "Crevettes, thon, avocat, salade, tomates et olives",
-      },
-      {
-        name: "Salade Mediterranee",
+        name: "SALADE MEDITERRANÉE",
         price: 18.0,
         description:
           "Aubergines grillées, tomate, mozarella, concombre, salade, parmezan et olives",
@@ -128,55 +146,44 @@ const menuData: Omit<MenuSectionProps, "imagePosition">[] = [
     title: "Couscous",
     image: "/gallery/couscous.webp",
     items: [
-      { name: "Couscous aux légumes", price: 15.5, description: "" },
-      { name: "Couscous aux merguez", price: 16.9, description: "" },
+      { name: "COUSCOUS AUX LÉGUMES", price: 15.5 },
+      { name: "COUSCOUS AUX MERGUEZ", price: 19.0 },
+      { name: "COUSCOUS KEFTA DE BŒUF", price: 19.0 },
+      { name: "COUSCOUS AU POULET", price: 20.0 },
+      { name: "COUSCOUS AUX BROCHETTES DE POULET", price: 20.0 },
+      { name: "COUSCOUS À L’AGNEAU", price: 20.5 },
+      { name: "COUSCOUS AUX BROCHETTES D'AGNEAU", price: 21.0 },
       {
-        name: "Couscous kefta de boeuf maison",
-        price: 17.9,
-        description: "",
-      },
-      { name: "Couscous au poulet", price: 18.9, description: "" },
-      {
-        name: "Couscous aux brochettes de poulet",
-        price: 18.9,
-        description: "",
-      },
-      { name: "Couscous à l'agneau", price: 19.9, description: "" },
-      {
-        name: "Couscous aux brochettes d'agneau",
-        price: 19.9,
-        description: "",
-      },
-      {
-        name: "Couscous Royal",
+        name: "COUSCOUS ROYAL",
         price: 22.0,
-        description: "Semoule, 7 légumes, merguez, poulet, agneau",
+        description: "Agneau, poulet, Merguez,Brochette agneau",
       },
       {
-        name: "Couscous Fassi Poulet",
-        price: 21.5,
-        description: "Confit d'oignons, raisins secs, amandes grillées et miel",
+        name: "COUSCOUS FASSI POULET",
+        price: 22.0,
+        description: "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
       },
       {
-        name: "Couscous Fassi Agneau",
-        price: 21.9,
-        description: "Confit d'oignons, raisins secs, amandes grillées et miel",
+        name: "COUSCOUS FASSI AGNEAU",
+        price: 23.0,
+        description: "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
       },
       {
-        name: "Couscous Maison",
-        price: 21.9,
+        name: "COUSCOUS MAISON",
+        price: 22.5,
         description:
-          "Kefta (boulette de viande hachée maison), brochette de poulet, merguez et agneau",
+          "Kefta (boulette de viande hachée maison), Brochette De Poulet, Merguez, Agneau",
       },
       {
-        name: "Couscous Mechoui",
-        price: 21.0,
-        description: "Épaule d'agneau rôtie et sa semoule",
+        name: "COUSCOUS MECHOUI",
+        price: 24.5,
+        description: "Epaule D'agneau Grillée Au Four",
       },
       {
-        name: "Couscous Grillades",
-        price: 21.9,
-        description: "Côtes d'agneau, brochette de poulet et merguez",
+        name: "COUSCOUS GRILLADES MIXTES",
+        price: 22.5,
+        description:
+          "Côtes D'agneau, Brochettes de Poulet (ou brochette Agneau) Et Merguez",
       },
     ],
   },
@@ -185,35 +192,93 @@ const menuData: Omit<MenuSectionProps, "imagePosition">[] = [
     image: "/gallery/tajines.webp",
     items: [
       {
-        name: "Tajine d'agneau aux pruneaux",
-        price: 18.9,
-        description: "Agneau mijoté avec des pruneaux et des amandes",
+        name: "TAJINE AGADIR POULET",
+        price: 22.0,
+        description: "Pruneaux, amandes grillées, miel et confit d'oignons",
       },
       {
-        name: "Tajine de poulet au citron confit",
-        price: 16.5,
-        description: "Poulet mijoté aux olives et citron confit",
+        name: "TAJINE ATLAS POULET",
+        price: 22.0,
+        description: "Pommes de terre, Oignons, haricot vert, Carottes",
       },
       {
-        name: "Tajine Rabat Poulet (Agneau +1€)",
-        price: 19.9,
-        description: "Citron confit, olives, oignons et pommes de terre",
+        name: "TAJINE RABAT POULET",
+        price: 21.5,
+        description: "Citron Confit, Olives, Oignons",
       },
       {
-        name: "Tajine Delices Poulet (Agneau +1€)",
-        price: 18.9,
-        description: "Aubergines, poivrons, oignons et tomates",
+        name: "TAJINE OUJDA POULET",
+        price: 20.0,
+        description: "Aubergines, Poivrons, Oignons Et Tomates",
       },
       {
-        name: "Tajine Kefta",
-        price: 17.9,
-        description: "Boulettes de viande hachée maison, sauce tomate et oeuf",
+        name: "TAJINE CASA ARTICHAUT POULET",
+        price: 20.0,
+        description: "Artichauds, Petits Pois, Oignons",
       },
       {
-        name: "Tajine de Poisson",
-        price: 19.5,
+        name: "TAJINE AUX 4 FRUITS AGNEAU",
+        price: 23.0,
         description:
-          "Poisson blanc, poivrons, tomates, pommes de terre et olives",
+          "Ananas caramelisés, pruneaux, figues, abricots, miel et confit d'oignons",
+      },
+      {
+        name: "TAJINE AGADIR AGNEAU",
+        price: 23.0,
+        description: "Pruneaux, amandes grillées, miel et confit d'oignons",
+      },
+      {
+        name: "TAJINE ATLAS AGNEAU",
+        price: 23.0,
+        description: "Pommes de terre, Oignons, haricot vert, Carottes",
+      },
+      {
+        name: "TAJINE RABAT AGNEAU",
+        price: 22.5,
+        description: "Citron Confit, Olives, Oignons",
+      },
+      {
+        name: "TAJINE OUJDA AGNEAU",
+        price: 21.0,
+        description: "Aubergines, Poivrons, Oignons Et Tomates",
+      },
+      {
+        name: "TAJINE CASA ARTICHAUT AGNEAU",
+        price: 21.0,
+        description: "Artichauds, Petits Pois, agneau Et Oignons",
+      },
+      {
+        name: "TAJINE FES MROUZIA SUCRÉ/SALE AGNEAU",
+        price: 22.0,
+        description: "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+      },
+      {
+        name: "TAJINE KEFTA DE BŒUF",
+        price: 20.5,
+        description:
+          "Boulettes de viande hachée de boeuf marinées à la marocaine, Œufs",
+      },
+      {
+        name: "TAGINE AUX LÉGUMES",
+        price: 18.5,
+        description:
+          "Petits Pois, Pomme de terre, Carottes, Oignons, Tomates, Haricots Verts",
+      },
+    ],
+  },
+  {
+    title: "Tajines de Poisson",
+    image: "/gallery/poisson.webp",
+    items: [
+      {
+        name: "TAJINE TANGER CABILLAUD",
+        price: 26.0,
+        description: "Dos de cabillaud et marinade à la marocaine",
+      },
+      {
+        name: "TAJINE DE LOTTE",
+        price: 24.5,
+        description: "Et sa marinade à la marocaine",
       },
     ],
   },
@@ -221,61 +286,111 @@ const menuData: Omit<MenuSectionProps, "imagePosition">[] = [
     title: "Grillades",
     image: "/gallery/grillades.webp",
     items: [
-      { name: "Brochettes de poulet", price: 18.9, description: "" },
       {
-        name: "Brochettes d'agneau",
-        price: 17.0,
-        description: "Brochettes d'agneau marinées et grillées",
+        name: "MECHOUI D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+        price: 24.0,
       },
-      { name: "Brochettes kefta", price: 18.9, description: "" },
       {
-        name: "Brochettes mixtes",
-        price: 20.9,
-        description: "Poulet, agneau, kefta",
+        name: "BROCHETTES D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+        price: 21.0,
       },
-      { name: "Côtes d'agneau", price: 20.9, description: "" },
-      { name: "Merguez", price: 16.9, description: "" },
       {
-        name: "Grillade Mixte",
-        price: 20.5,
-        description: "Assortiment de viandes grillées",
+        name: "BROCHETTES DE POULET ET 1 ACCOMPAGNEMENT AU CHOIX",
+        price: 19.0,
+      },
+      { name: "CÔTE D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX", price: 20.0 },
+      {
+        name: "MERGUEZ (4 pièces) ET 1 ACCOMPAGNEMENT AU CHOIX",
+        price: 19.0,
       },
     ],
   },
   {
-    title: "Desserts",
+    title: "Desserts Maison",
     image: "/gallery/desserts.webp",
     items: [
-      { name: "Salade de fruits frais", price: 7.5, description: "" },
+      { name: "PÂTISSERIE MAROCAINE (1 PIÈCE)", price: 3.0 },
       {
-        name: "Salade d'oranges à la cannelle",
-        price: 6.5,
-        description: "Oranges fraîches parfumées à la cannelle",
+        name: "SALADE D’ORANGES PARFUMÉES",
+        price: 6.0,
+        description: "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
       },
-      { name: "Tiramisu Spéculoos", price: 8.5, description: "" },
-      { name: "Fondant au chocolat", price: 8.5, description: "" },
+      { name: "ANANAS FRAIS", price: 6.0 },
+      { name: "SALADE D'ANANAS PIROGUES", price: 6.5 },
+      { name: "DATTES MEDJOOL (4 PIÈCES)", price: 6.0 },
       {
-        name: "Assortiment de pâtisseries marocaines",
+        name: "BAGHRIR (Crèpe milles trous)",
+        price: 7.0,
+        description: "Au Miel ou au caramel beurre salé",
+      },
+      {
+        name: "ASSORTIMENT DE PÂTISSERIES MAROCAINES",
         price: 8.5,
-        description: "Assortiment de douceurs marocaines",
+        description: "Assortiment De 3 Pièces",
       },
     ],
   },
   {
-    title: "Boissons",
-    image: "/gallery/2.webp", // Placeholder image for drinks
+    title: "Desserts Glacés",
+    image: "/gallery/desserts.webp",
     items: [
+      { name: "NOUGAT GLACÉ", price: 8.7 },
       {
-        name: "Orangina, Schweppes, Lipton Iced Tea 25cl",
-        price: 4.0,
-        description: "",
+        name: "DAME BLANCHE",
+        price: 7.0,
+        description: "1 boule vanille, 1 boule fraise, 1 boule chocolat, banane",
       },
-      { name: "Coca Cola, Perrier 33cl", price: 4.0, description: "" },
+      { name: "CAFÉ LIEGEOIS", price: 7.0 },
+      { name: "CHOCOLAT LIÉGEOIS", price: 7.0 },
+      { name: "PROFITEROLES", price: 8.5 },
+      { name: "MYSTERE", price: 8.5 },
       {
-        name: "Jus (Orange, Pomme, Ananas, Banane, Abricot, Tomate) 25cl",
-        price: 4.0,
-        description: "",
+        name: "COUPE COLONEL",
+        price: 8.5,
+        description: "2 boules cassis et boukha",
       },
+      { name: "CITRON GIVRÉ", price: 8.5 },
+      { name: "POIRE BELLE-HÉLÈNE", price: 7.0 },
+      {
+        name: "2 boules Menthe pépite chocolat, GET27",
+        price: 7.7,
+      },
+      {
+        name: "GLACE RHUM-RAISIN avec Rhum",
+        price: 7.7,
+      },
+    ],
+  },
+  {
+    title: "Les Vins Marocains",
+    image: "/gallery/vins.webp",
+    items: [
+      { name: "GUERROUANE Rouge Ou Rosé 37,5 Cl A.O.G", price: 14.0 },
+      { name: "GUERROUANE Rouge Ou Rosé 75 Cl A.O.G", price: 21.0 },
+      { name: "BOULAOUANE sérigraphie Rouge Ou Rosé 37,5 Cl", price: 14.0 },
+      { name: "BOULAOUANE sérigraphie Rouge Ou Rosé 75 Cl", price: 21.0 },
+      { name: "RIAD JAMIL 75 Cl A.O.G", price: 27.0 },
+      {
+        name: 'MD Excellence Rouge ou rosé nommé "Médaillon" 75 Cl A.O.G',
+        price: 29.0,
+      },
+      {
+        name: 'MD Excellence Rouge ou rosé nommé "Médaillon" 37,5 Cl A.O.G',
+        price: 16.0,
+      },
+    ],
+  },
+  {
+    title: "Les Vins Francais",
+    image: "/gallery/vins.webp",
+    items: [
+      { name: "VERRE DE VIN Rouge ou Rosé", price: 5.5 },
+      { name: "VIN EN PICHET 25 Cl", price: 7.5 },
+      { name: "VIN EN PICHET 50 Cl", price: 12.0 },
+      { name: "CÔTES DU RHÔNE Rouge 37,5 Cl", price: 13.0 },
+      { name: "CÔTES DU RHÔNE Rouge 75 Cl", price: 20.0 },
+      { name: "CÔTES DE PROVENCE Rosé 37,5 Cl", price: 12.5 },
+      { name: "CÔTES DE PROVENCE LA SANTONNIERE Rosé 75 Cl A.O.P", price: 19.0 },
     ],
   },
 ];

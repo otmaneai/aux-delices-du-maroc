@@ -1,0 +1,4794 @@
+{
+  "source_file": "MENU ADDM  17 09 2025.xlsx",
+  "updated_at": "2025-09-17T11:42:22.535056Z",
+  "categories": [
+    {
+      "name": "LES APERITIFS ET DIGESTIFS",
+      "slug": "les-aperitifs-et-digestifs",
+      "items": [
+        {
+          "sku": null,
+          "name": "KIR ROYAL (Cassis, mûre, framboise, fraise, pêche) 10 Cl",
+          "slug": "kir-royal-cassis-mre-framboise-fraise-pche-10-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KIR (Cassis, mûre, framboise, fraise, pêche) 10 Cl",
+          "slug": "kir-cassis-mre-framboise-fraise-pche-10-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "RICARD 2,5CL",
+          "slug": "ricard-25cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PORTO Blanc et Rouge  5 Cl",
+          "slug": "porto-blanc-et-rouge-5-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MARTINI Blanc et Rouge5 Cl",
+          "slug": "martini-blanc-et-rouge5-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE DE CHAMPAGNE 8 Cl",
+          "slug": "coupe-de-champagne-8-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "HEINEKEN, 1664  33 Cl",
+          "slug": "heineken-1664-33-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 4.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BIERE CASABLANCA 33 Cl",
+          "slug": "biere-casablanca-33-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CHAMPAGNES",
+          "slug": "champagnes",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "J&B 4 Cl",
+          "slug": "jb-4-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 6.8,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "JOHNNIE WALKER 4 Cl",
+          "slug": "johnnie-walker-4-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CHIVAS / JACK DANIELS 4 Cl",
+          "slug": "chivas--jack-daniels-4-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "WHISKY + COCA COLA",
+          "slug": "whisky--coca-cola",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 9.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOKHA, GET 27",
+          "slug": "bokha-get-27",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 8.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KIR ROYAL (Cassis, mûre, framboise, fraise, pêche) 12 Cl",
+          "slug": "kir-royal-cassis-mre-framboise-fraise-pche-12-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 7.8,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KIR (Cassis, mûre, framboise, fraise, pêche) 12 Cl",
+          "slug": "kir-cassis-mre-framboise-fraise-pche-12-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "ANISETTE 2,5 Cl",
+          "slug": "anisette-25-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PASTIS 2,5 Cl",
+          "slug": "pastis-25-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "RICARD 2,5CL",
+          "slug": "ricard-25cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PORTO Blanc et Rouge  5 Cl",
+          "slug": "porto-blanc-et-rouge-5-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUZE 5 Cl",
+          "slug": "suze-5-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CAMPARI 5 Cl",
+          "slug": "campari-5-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MARTINI Blanc et Rouge5 Cl",
+          "slug": "martini-blanc-et-rouge5-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "WHISKY, J&B, JOHNNIE WALKER  4 Cl + COCA COLA",
+          "slug": "whisky-jb-johnnie-walker-4-cl--coca-cola",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 9.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOKHA, MARIE BRIZARD, GET 27,\nCOGNAC, POIRE, CALVADOS 4 Cl",
+          "slug": "bokha-marie-brizard-get-27-cognac-poire-calvados-4-cl",
+          "category": "LES APERITIFS ET DIGESTIFS",
+          "description": null,
+          "price": 8.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "COCKTAILS SOFT",
+      "slug": "cocktails-soft",
+      "items": [
+        {
+          "sku": null,
+          "name": "DIABOLO Menthe, Grenadine Ou Fraise",
+          "slug": "diabolo-menthe-grenadine-ou-fraise",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COCKTAIL FRUIT 10 Cl",
+          "slug": "cocktail-fruit-10-cl",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VIRGIN MOJITO 10 Cl",
+          "slug": "virgin-mojito-10-cl",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COCKTAIL FRUIT 12 Cl",
+          "slug": "cocktail-fruit-12-cl",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COCO BANANE 12 Cl",
+          "slug": "coco-banane-12-cl",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VIRGIN MOJITO 12 Cl",
+          "slug": "virgin-mojito-12-cl",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "JUS D'AVOCAT MAISON",
+          "slug": "jus-davocat-maison",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 8.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "JUS D'ORANGE MAISON",
+          "slug": "jus-dorange-maison",
+          "category": "COCKTAILS SOFT",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "COCKTAILS AVEC ALCOOL",
+      "slug": "cocktails-avec-alcool",
+      "items": [
+        {
+          "sku": null,
+          "name": "COCKTAIL MAISON 10 Cl (vodka,malibu, boukha, jus de fruits)",
+          "slug": "cocktail-maison-10-cl-vodkamalibu-boukha-jus-de-fruits",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 9.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MOJITO",
+          "slug": "mojito",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PIÑA COLADA",
+          "slug": "pia-colada",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "AMERICANO MAISON 10 Cl",
+          "slug": "americano-maison-10-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "APEROL SPRITZ",
+          "slug": "aperol-spritz",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VODKA ORANGE 10 Cl",
+          "slug": "vodka-orange-10-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOUKHA ORANGE 10 Cl",
+          "slug": "boukha-orange-10-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GIN TONIC 10 Cl",
+          "slug": "gin-tonic-10-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COCKTAIL MAISON 12 Cl",
+          "slug": "cocktail-maison-12-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 9.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "AMERICANO MAISON 12 Cl",
+          "slug": "americano-maison-12-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MALIBU ANANAS 5 Cl",
+          "slug": "malibu-ananas-5-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VODKA ORANGE 12 Cl",
+          "slug": "vodka-orange-12-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOUKHA ORANGE 12 Cl",
+          "slug": "boukha-orange-12-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUZE TONIC 5 Cl",
+          "slug": "suze-tonic-5-cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GIN TONIC 12cl",
+          "slug": "gin-tonic-12cl",
+          "category": "COCKTAILS AVEC ALCOOL",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES CHAMPAGNES",
+      "slug": "les-champagnes",
+      "items": [
+        {
+          "sku": null,
+          "name": "CHARLES MONTAIN BRUT 75 Cl",
+          "slug": "charles-montain-brut-75-cl",
+          "category": "LES CHAMPAGNES",
+          "description": null,
+          "price": 49.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CORDON ROUGE 75 Cl",
+          "slug": "cordon-rouge-75-cl",
+          "category": "LES CHAMPAGNES",
+          "description": null,
+          "price": 58.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES BOISSONS FRAICHES",
+      "slug": "les-boissons-fraiches",
+      "items": [
+        {
+          "sku": null,
+          "name": "ORANGINA, SCHWEPPES, LIPTON ICED TEA 25 Cl",
+          "slug": "orangina-schweppes-lipton-iced-tea-25-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COCA, PERRIER 33 Cl",
+          "slug": "coca-perrier-33-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "JUS (ORANGE, POMME, ANANAS, BANANE, ABRICOT, TOMATE) 25 Cl",
+          "slug": "jus-orange-pomme-ananas-banane-abricot-tomate-25-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "EAU EVIAN, BADOIT,SAN PELLEGRINO 50 Cl",
+          "slug": "eau-evian-badoitsan-pellegrino-50-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "EAU EVIAN, BADOIT,SAN PELLEGRINO 100 Cl",
+          "slug": "eau-evian-badoitsan-pellegrino-100-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "EAU MINERALE, SAN PELLEGRINO 50 Cl",
+          "slug": "eau-minerale-san-pellegrino-50-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PERRIER,SAN PELLEGRINO, EAU MINERALE  100 Cl",
+          "slug": "perriersan-pellegrino-eau-minerale-100-cl",
+          "category": "LES BOISSONS FRAICHES",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES BOISSONS CHAUDES",
+      "slug": "les-boissons-chaudes",
+      "items": [
+        {
+          "sku": null,
+          "name": "CAFÉ espresso, allongé, décafeiné",
+          "slug": "caf-espresso-allong-dcafein",
+          "category": "LES BOISSONS CHAUDES",
+          "description": null,
+          "price": 3.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "THÉ À LA MENTHE Individuel",
+          "slug": "th--la-menthe-individuel",
+          "category": "LES BOISSONS CHAUDES",
+          "description": null,
+          "price": 3.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "THÉ À LA MENTHE Individuel",
+          "slug": "th--la-menthe-individuel",
+          "category": "LES BOISSONS CHAUDES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CAFÉ espresso, allongé, décafeiné",
+          "slug": "caf-espresso-allong-dcafein",
+          "category": "LES BOISSONS CHAUDES",
+          "description": null,
+          "price": 2.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "THÉ À LA MENTHE Individuel",
+          "slug": "th--la-menthe-individuel",
+          "category": "LES BOISSONS CHAUDES",
+          "description": null,
+          "price": 3.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "ENTRÉES FROIDES",
+      "slug": "entres-froides",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE MAROCAINE",
+          "slug": "salade-marocaine",
+          "category": "ENTRÉES FROIDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Salade De Tomates, Poivrons, Oignons Et Olives",
+      "slug": "salade-de-tomates-poivrons-oignons-et-olives",
+      "items": [
+        {
+          "sku": null,
+          "name": "ZAALOUK",
+          "slug": "zaalouk",
+          "category": "Salade De Tomates, Poivrons, Oignons Et Olives",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "ZAALOUK",
+          "slug": "zaalouk",
+          "category": "Salade De Tomates, Poivrons, Oignons Et Olives",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Caviar D’aubergines Et Tomates Marinées",
+      "slug": "caviar-daubergines-et-tomates-marines",
+      "items": [
+        {
+          "sku": null,
+          "name": "SLATA MECHOUIA",
+          "slug": "slata-mechouia",
+          "category": "Caviar D’aubergines Et Tomates Marinées",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SLATA MECHOUIA",
+          "slug": "slata-mechouia",
+          "category": "Caviar D’aubergines Et Tomates Marinées",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Poivrons Et Tomates Grillés et Ail",
+      "slug": "poivrons-et-tomates-grills-et-ail",
+      "items": [
+        {
+          "sku": null,
+          "name": "AVOCAT CREVETTES",
+          "slug": "avocat-crevettes",
+          "category": "Poivrons Et Tomates Grillés et Ail",
+          "description": null,
+          "price": 8.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "AVOCAT CREVETTES",
+          "slug": "avocat-crevettes",
+          "category": "Poivrons Et Tomates Grillés et Ail",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "ENTRÉES CHAUDES",
+      "slug": "entres-chaudes",
+      "items": [
+        {
+          "sku": null,
+          "name": "HARIRA MAROCAINE",
+          "slug": "harira-marocaine",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 8.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK À L’ŒUF",
+          "slug": "brick--luf",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK DE CHÈVRE AU MIEL",
+          "slug": "brick-de-chvre-au-miel",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK KEFTA ET A L'ŒUF",
+          "slug": "brick-kefta-et-a-luf",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK AU THON ET À L’ŒUF",
+          "slug": "brick-au-thon-et--luf",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK AU POULET  ET A L'ŒUF",
+          "slug": "brick-au-poulet-et-a-luf",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PASTILLA AU POULET",
+          "slug": "pastilla-au-poulet",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 14.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK À L’ŒUF",
+          "slug": "brick--luf",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK AUX CREVETTES ET FROMAGE",
+          "slug": "brick-aux-crevettes-et-fromage",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PASTILLA AU POULET",
+          "slug": "pastilla-au-poulet",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BRICK AUX CREVETTES",
+          "slug": "brick-aux-crevettes",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 6.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PASTILLA AU POULET ET A L'ŒUF",
+          "slug": "pastilla-au-poulet-et-a-luf",
+          "category": "ENTRÉES CHAUDES",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Feuilleté D’émincé De Poulet, Amandes Grillées",
+      "slug": "feuillet-dminc-de-poulet-amandes-grilles",
+      "items": [
+        {
+          "sku": null,
+          "name": "CHAKCHOUKA",
+          "slug": "chakchouka",
+          "category": "Feuilleté D’émincé De Poulet, Amandes Grillées",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PASTILLA AUX FRUITS DE MER",
+          "slug": "pastilla-aux-fruits-de-mer",
+          "category": "Feuilleté D’émincé De Poulet, Amandes Grillées",
+          "description": null,
+          "price": 14.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CHAKCHOUKA",
+          "slug": "chakchouka",
+          "category": "Feuilleté D’émincé De Poulet, Amandes Grillées",
+          "description": null,
+          "price": 8.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "NOS SALADES (PLAT)",
+      "slug": "nos-salades-plat",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE COMPOSÉE",
+          "slug": "salade-compose",
+          "category": "NOS SALADES (PLAT)",
+          "description": null,
+          "price": 16.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Avocat, salade verte, thon, maïs, tomates et olives",
+      "slug": "avocat-salade-verte-thon-mas-tomates-et-olives",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE MEDITERRANÉE",
+          "slug": "salade-mediterrane",
+          "category": "Avocat, salade verte, thon, maïs, tomates et olives",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SALADE FRAÎCHEUR",
+          "slug": "salade-fracheur",
+          "category": "Avocat, salade verte, thon, maïs, tomates et olives",
+          "description": null,
+          "price": 16.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "COUSCOUS",
+      "slug": "couscous",
+      "items": [
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX LÉGUMES",
+          "slug": "couscous-aux-lgumes",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 15.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX MERGUEZ",
+          "slug": "couscous-aux-merguez",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS KEFTA DE BŒUF",
+          "slug": "couscous-kefta-de-buf",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AU POULET",
+          "slug": "couscous-au-poulet",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES DE POULET",
+          "slug": "couscous-aux-brochettes-de-poulet",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS À L’AGNEAU",
+          "slug": "couscous--lagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 20.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES D'AGNEAU",
+          "slug": "couscous-aux-brochettes-dagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS ROYAL",
+          "slug": "couscous-royal",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX MERGUEZ",
+          "slug": "couscous-aux-merguez",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 16.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS KEFTA DE BŒUF",
+          "slug": "couscous-kefta-de-buf",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 17.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AU POULET",
+          "slug": "couscous-au-poulet",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 18.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES DE POULET",
+          "slug": "couscous-aux-brochettes-de-poulet",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 18.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS À L’AGNEAU",
+          "slug": "couscous--lagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 19.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES D'AGNEAU",
+          "slug": "couscous-aux-brochettes-dagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 19.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS ROYAL",
+          "slug": "couscous-royal",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 21.75,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX LÉGUMES",
+          "slug": "couscous-aux-lgumes",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 14.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX MERGUEZ",
+          "slug": "couscous-aux-merguez",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 16.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS KEFTA DE BŒUF",
+          "slug": "couscous-kefta-de-buf",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AU POULET",
+          "slug": "couscous-au-poulet",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES DE POULET",
+          "slug": "couscous-aux-brochettes-de-poulet",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS À L’AGNEAU",
+          "slug": "couscous--lagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES D'AGNEAU",
+          "slug": "couscous-aux-brochettes-dagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS ROYAL",
+          "slug": "couscous-royal",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 20.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX MERGUEZ",
+          "slug": "couscous-aux-merguez",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 16.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS AUX BROCHETTES D’AGNEAU",
+          "slug": "couscous-aux-brochettes-dagneau",
+          "category": "COUSCOUS",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Agneau,  poulet, Merguez,Brochette agneau",
+      "slug": "agneau-poulet-merguezbrochette-agneau",
+      "items": [
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI POULET",
+          "slug": "couscous-fassi-poulet",
+          "category": "Agneau,  poulet, Merguez,Brochette agneau",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI POULET",
+          "slug": "couscous-fassi-poulet",
+          "category": "Agneau,  poulet, Merguez,Brochette agneau",
+          "description": null,
+          "price": 21.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI POULET",
+          "slug": "couscous-fassi-poulet",
+          "category": "Agneau,  poulet, Merguez,Brochette agneau",
+          "description": null,
+          "price": 19.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI POULET (AGNEAU  +1€)",
+          "slug": "couscous-fassi-poulet-agneau-1",
+          "category": "Agneau,  poulet, Merguez,Brochette agneau",
+          "description": null,
+          "price": 19.7,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+      "slug": "confit-doignons-raisins-secs-amandes-grilles-miel",
+      "items": [
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI AGNEAU",
+          "slug": "couscous-fassi-agneau",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS MAISON",
+          "slug": "couscous-maison",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 22.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS MECHOUI",
+          "slug": "couscous-mechoui",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 24.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI AGNEAU",
+          "slug": "couscous-fassi-agneau",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS MAISON",
+          "slug": "couscous-maison",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS MECHOUI",
+          "slug": "couscous-mechoui",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 23.75,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF AGNEAU",
+          "slug": "tajine-du-chef-agneau",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS FASSI AGNEAU",
+          "slug": "couscous-fassi-agneau",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 20.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS MAISON",
+          "slug": "couscous-maison",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 21.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS MECHOUI",
+          "slug": "couscous-mechoui",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF AGNEAU",
+          "slug": "tajine-du-chef-agneau",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 21.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF AGNEAU",
+          "slug": "tajine-du-chef-agneau",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINES",
+          "slug": "tajines",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET (AGNEAU  +1€)",
+          "slug": "tajine-atlas-poulet-agneau-1",
+          "category": "Confit D’oignons, Raisins Secs, Amandes Grillées, Miel",
+          "description": null,
+          "price": 18.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Epaule D'agneau Grillée Au Four",
+      "slug": "epaule-dagneau-grille-au-four",
+      "items": [
+        {
+          "sku": null,
+          "name": "COUSCOUS GRILLADES MIXTES",
+          "slug": "couscous-grillades-mixtes",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 22.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS GRILLADES MIXTES",
+          "slug": "couscous-grillades-mixtes",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLÉMENTS",
+          "slug": "supplments",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "Méchoui",
+          "slug": "mchoui",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUSCOUS GRILLADES MIXTES",
+          "slug": "couscous-grillades-mixtes",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGNEAU AUX 4 FRUITS",
+          "slug": "tajine-agneau-aux-4-fruits",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGNEAU AUX 4 FRUITS",
+          "slug": "tajine-agneau-aux-4-fruits",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET (AGNEAU  +1€)",
+          "slug": "tajine-agadir-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE AGADIR POULET (AGNEAU  +1€)",
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET (AGNEAU  +1€)",
+          "slug": "tajine-agadir-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 20.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET (AGNEAU  +1€)",
+          "slug": "tajine-agadir-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE AGADIR POULET (AGNEAU  +1€)",
+          "price": 21.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES",
+          "slug": "tajine-delices",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE FES MROUZIA SUCRE/SALE AGNEAU",
+          "slug": "tajine-fes-mrouzia-sucresale-agneau",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINES",
+          "slug": "tajines",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET (AGNEAU  +1€)",
+          "slug": "tajine-atlas-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE ATLAS POULET (AGNEAU  +1€)",
+          "price": 18.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET (AGNEAU  +1€)",
+          "slug": "tajine-atlas-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE ATLAS POULET (AGNEAU  +1€)",
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUDS AGNEAU",
+          "slug": "tajine-casa-artichauds-agneau",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF AGNEAU",
+          "slug": "tajine-du-chef-agneau",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET (AGNEAU  +1€)",
+          "slug": "tajine-rabat-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE RABAT POULET (AGNEAU  +1€)",
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET (AGNEAU  +1€)",
+          "slug": "tajine-rabat-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE RABAT POULET (AGNEAU  +1€)",
+          "price": 19.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES  POULET (AGNEAU  +1€)",
+          "slug": "tajine-delices-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE DELICES  POULET (AGNEAU  +1€)",
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES  POULET (AGNEAU  +1€)",
+          "slug": "tajine-delices-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE DELICES  POULET (AGNEAU  +1€)",
+          "price": 18.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA POULET (AGNEAU  +1€)",
+          "slug": "tajine-oujda-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE OUJDA POULET (AGNEAU  +1€)",
+          "price": 1.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA POULET (AGNEAU  +1€)",
+          "slug": "tajine-oujda-poulet-agneau-1",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": "TAJINE OUJDA POULET (AGNEAU  +1€)",
+          "price": 19.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE KEFTA DE BŒUF",
+          "slug": "tajine-kefta-de-buf",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAGINE AUX LÉGUMES",
+          "slug": "tagine-aux-lgumes",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 15.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "Epaule D'agneau Grillée Au Four",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "SUPPLÉMENTS",
+      "slug": "supplments",
+      "items": [
+        {
+          "sku": null,
+          "name": "Merguez, boulette de viande hachée, brochette d'agneau, \nbrochette de Poulet,part de semoule",
+          "slug": "merguez-boulette-de-viande-hache-brochette-dagneau-brochette-de-pouletpart-de-semoule",
+          "category": "SUPPLÉMENTS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "supplement barqette doggy bag",
+          "slug": "supplement-barqette-doggy-bag",
+          "category": "SUPPLÉMENTS",
+          "description": null,
+          "price": 0.8,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "Méchoui",
+          "slug": "mchoui",
+          "category": "SUPPLÉMENTS",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Pastillas ( plat )",
+      "slug": "pastillas--plat",
+      "items": [
+        {
+          "sku": null,
+          "name": "pastilla au poulet",
+          "slug": "pastilla-au-poulet",
+          "category": "Pastillas ( plat )",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "TAJINES POULET",
+      "slug": "tajines-poulet",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET",
+          "slug": "tajine-agadir-poulet",
+          "category": "TAJINES POULET",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET",
+          "slug": "tajine-agadir-poulet",
+          "category": "TAJINES POULET",
+          "description": null,
+          "price": 20.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET",
+          "slug": "tajine-agadir-poulet",
+          "category": "TAJINES POULET",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Pruneaux, amandes grillées, miel et confit d'oignons",
+      "slug": "pruneaux-amandes-grilles-miel-et-confit-doignons",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET",
+          "slug": "tajine-atlas-poulet",
+          "category": "Pruneaux, amandes grillées, miel et confit d'oignons",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS AGNEAU",
+          "slug": "tajine-atlas-agneau",
+          "category": "Pruneaux, amandes grillées, miel et confit d'oignons",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET",
+          "slug": "tajine-atlas-poulet",
+          "category": "Pruneaux, amandes grillées, miel et confit d'oignons",
+          "description": null,
+          "price": 18.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS AGNEAU",
+          "slug": "tajine-atlas-agneau",
+          "category": "Pruneaux, amandes grillées, miel et confit d'oignons",
+          "description": null,
+          "price": 19.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET",
+          "slug": "tajine-atlas-poulet",
+          "category": "Pruneaux, amandes grillées, miel et confit d'oignons",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS AGNEAU",
+          "slug": "tajine-atlas-agneau",
+          "category": "Pruneaux, amandes grillées, miel et confit d'oignons",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Pommes de terre, Oignons, haricot vert, Carottes",
+      "slug": "pommes-de-terre-oignons-haricot-vert-carottes",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET",
+          "slug": "tajine-rabat-poulet",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 21.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT AGNEAU",
+          "slug": "tajine-rabat-agneau",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 22.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET",
+          "slug": "tajine-rabat-poulet",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 19.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT AGNEAU",
+          "slug": "tajine-rabat-agneau",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 20.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET",
+          "slug": "tajine-rabat-poulet",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT AGNEAU",
+          "slug": "tajine-rabat-agneau",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 20.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUDS AGNEAU",
+          "slug": "tajine-casa-artichauds-agneau",
+          "category": "Pommes de terre, Oignons, haricot vert, Carottes",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Citron Confit, Olives, Oignons",
+      "slug": "citron-confit-olives-oignons",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA POULET",
+          "slug": "tajine-oujda-poulet",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA AGNEAU",
+          "slug": "tajine-oujda-agneau",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES  POULET",
+          "slug": "tajine-delices-poulet",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 18.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA AGNEAU",
+          "slug": "tajine-oujda-agneau",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES  POULET",
+          "slug": "tajine-delices-poulet",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES AGNEAU",
+          "slug": "tajine-delices-agneau",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES  POULET (AGNEAU  +1€)",
+          "slug": "tajine-delices-poulet-agneau-1",
+          "category": "Citron Confit, Olives, Oignons",
+          "description": null,
+          "price": 18.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Aubergines, Poivrons, Oignons Et Tomates",
+      "slug": "aubergines-poivrons-oignons-et-tomates",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUT POULET",
+          "slug": "tajine-casa-artichaut-poulet",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUT AGNEAU",
+          "slug": "tajine-casa-artichaut-agneau",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUT POULET",
+          "slug": "tajine-casa-artichaut-poulet",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUT AGNEAU",
+          "slug": "tajine-casa-artichaut-agneau",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR AGNEAU",
+          "slug": "tajine-agadir-agneau",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGNEAU AUX 4 FRUITS",
+          "slug": "tajine-agneau-aux-4-fruits",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE KEFTA DE BŒUF",
+          "slug": "tajine-kefta-de-buf",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAGINE AUX LÉGUMES",
+          "slug": "tagine-aux-lgumes",
+          "category": "Aubergines, Poivrons, Oignons Et Tomates",
+          "description": null,
+          "price": 15.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "TAJINES AGNEAU",
+      "slug": "tajines-agneau",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE AUX 4 FRUITS AGNEAU",
+          "slug": "tajine-aux-4-fruits-agneau",
+          "category": "TAJINES AGNEAU",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR AGNEAU",
+          "slug": "tajine-agadir-agneau",
+          "category": "TAJINES AGNEAU",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AUX 4 FRUITS AGNEAU",
+          "slug": "tajine-aux-4-fruits-agneau",
+          "category": "TAJINES AGNEAU",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES AGNEAU",
+          "slug": "tajine-delices-agneau",
+          "category": "TAJINES AGNEAU",
+          "description": null,
+          "price": 19.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DELICES AGNEAU",
+          "slug": "tajine-delices-agneau",
+          "category": "TAJINES AGNEAU",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Artichauds, Petits Pois, agneau Et Oignons",
+      "slug": "artichauds-petits-pois-agneau-et-oignons",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE FES MROUZIA SUCRÉ/SALE AGNEAU",
+          "slug": "tajine-fes-mrouzia-sucrsale-agneau",
+          "category": "Artichauds, Petits Pois, agneau Et Oignons",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE FES MROUZIA SUCRÉ/SALE AGNEAU",
+          "slug": "tajine-fes-mrouzia-sucrsale-agneau",
+          "category": "Artichauds, Petits Pois, agneau Et Oignons",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "TAJINE DE BŒUF",
+      "slug": "tajine-de-buf",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE KEFTA DE BŒUF",
+          "slug": "tajine-kefta-de-buf",
+          "category": "TAJINE DE BŒUF",
+          "description": null,
+          "price": 20.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE KEFTA DE BŒUF",
+          "slug": "tajine-kefta-de-buf",
+          "category": "TAJINE DE BŒUF",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "TAJINES VÉGÉTARIENS",
+      "slug": "tajines-vgtariens",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAGINE AUX LÉGUMES",
+          "slug": "tagine-aux-lgumes",
+          "category": "TAJINES VÉGÉTARIENS",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAGINE AUX LÉGUMES",
+          "slug": "tagine-aux-lgumes",
+          "category": "TAJINES VÉGÉTARIENS",
+          "description": null,
+          "price": 16.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAGINE AUX LÉGUMES",
+          "slug": "tagine-aux-lgumes",
+          "category": "TAJINES VÉGÉTARIENS",
+          "description": null,
+          "price": 15.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "ACCOMPAGNEMENT : semoule ou pain",
+      "slug": "accompagnement--semoule-ou-pain",
+      "items": [
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "ACCOMPAGNEMENT : semoule ou pain",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "ACCOMPAGNEMENT : semoule ou pain",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "TAJINES DE POISSON",
+      "slug": "tajines-de-poisson",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE TANGER CABILLAUD",
+          "slug": "tajine-tanger-cabillaud",
+          "category": "TAJINES DE POISSON",
+          "description": null,
+          "price": 26.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE SAFI PILPIL",
+          "slug": "tajine-safi-pilpil",
+          "category": "TAJINES DE POISSON",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Dos de cabillaud et marinade à la marocaine",
+      "slug": "dos-de-cabillaud-et-marinade--la-marocaine",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE DE LOTTE",
+          "slug": "tajine-de-lotte",
+          "category": "Dos de cabillaud et marinade à la marocaine",
+          "description": null,
+          "price": 24.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DE LOTTE",
+          "slug": "tajine-de-lotte",
+          "category": "Dos de cabillaud et marinade à la marocaine",
+          "description": null,
+          "price": 22.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE LOTTE",
+          "slug": "tajine-lotte",
+          "category": "Dos de cabillaud et marinade à la marocaine",
+          "description": null,
+          "price": 22.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "GRILLADES",
+      "slug": "grillades",
+      "items": [
+        {
+          "sku": null,
+          "name": "MECHOUI D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "mechoui-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 24.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "brochettes-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES DE POULET ET 1 ACCOMPAGNEMENT \nAU CHOIX",
+          "slug": "brochettes-de-poulet-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTE D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "cte-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MERGUEZ (4 pièces) ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "merguez-4-pices-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PLATEAU AUX DÉLICES DU MAROC (ET ACCOMPAGNEMENT AU CHOIX)",
+          "slug": "plateau-aux-dlices-du-maroc-et-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 22.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES DE POULET ET 1 ACCOMPAGNEMENT \nAU CHOIX",
+          "slug": "brochettes-de-poulet-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "brochettes-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 19.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTE D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "cte-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 18.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MECHOUI D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "mechoui-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MERGUEZ (4 pièces) ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "merguez-4-pices-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 16.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PLATEAU AUX DÉLICES DU MAROC (ET ACCOMPAGNEMENT AU CHOIX)",
+          "slug": "plateau-aux-dlices-du-maroc-et-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES KEFTA ET 1 ACCOMPAGNEMENT \nAU CHOIX",
+          "slug": "brochettes-kefta-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COTE D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "cote-dagneau-et-1-accompagnement-au-choix",
+          "category": "GRILLADES",
+          "description": null,
+          "price": 18.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Haricots Verts À La Marocaine, Légumes Sautés, Frites",
+      "slug": "haricots-verts--la-marocaine-lgumes-sauts-frites",
+      "items": [
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "Haricots Verts À La Marocaine, Légumes Sautés, Frites",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MENU PETIT(E) PRINCE(SSE)",
+          "slug": "menu-petite-princesse",
+          "category": "Haricots Verts À La Marocaine, Légumes Sautés, Frites",
+          "description": null,
+          "price": 12.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLÉMENT MECHOUI",
+          "slug": "supplment-mechoui",
+          "category": "Haricots Verts À La Marocaine, Légumes Sautés, Frites",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "Haricots Verts À La Marocaine, Légumes Sautés, Frites",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLEMENT MECHOUI",
+          "slug": "supplement-mechoui",
+          "category": "Haricots Verts À La Marocaine, Légumes Sautés, Frites",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "DESSERTS MAISON",
+      "slug": "desserts-maison",
+      "items": [
+        {
+          "sku": null,
+          "name": "PÂTISSERIE MAROCAINE (1 PIÈCE)",
+          "slug": "ptisserie-marocaine-1-pice",
+          "category": "DESSERTS MAISON",
+          "description": null,
+          "price": 3.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SALADE D’ORANGES PARFUMÉES",
+          "slug": "salade-doranges-parfumes",
+          "category": "DESSERTS MAISON",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
+      "slug": "oranges-parfumes--la-fleur-doranger-et--la-cannelle",
+      "items": [
+        {
+          "sku": null,
+          "name": "ANANAS FRAIS",
+          "slug": "ananas-frais",
+          "category": "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SALADE D'ANANAS PIROGUES",
+          "slug": "salade-dananas-pirogues",
+          "category": "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "DATTES MEDJOOL (4 PIÈCES)",
+          "slug": "dattes-medjool-4-pices",
+          "category": "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
+          "description": null,
+          "price": 6.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BAGHRIR (Crèpe milles trous)",
+          "slug": "baghrir-crpe-milles-trous",
+          "category": "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BAGHRIR (Crèpe milles trous)",
+          "slug": "baghrir-crpe-milles-trous",
+          "category": "Oranges Parfumées À La Fleur D’oranger Et À La Cannelle",
+          "description": null,
+          "price": 6.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Au Miel ou au caramel beurre salé",
+      "slug": "au-miel-ou-au-caramel-beurre-sal",
+      "items": [
+        {
+          "sku": null,
+          "name": "ASSORTIMENT DE PÂTISSERIES MAROCAINES",
+          "slug": "assortiment-de-ptisseries-marocaines",
+          "category": "Au Miel ou au caramel beurre salé",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "DESSERTS MAISON GOURMANDS",
+      "slug": "desserts-maison-gourmands",
+      "items": [
+        {
+          "sku": null,
+          "name": "CAFÉ GOURMAND",
+          "slug": "caf-gourmand",
+          "category": "DESSERTS MAISON GOURMANDS",
+          "description": null,
+          "price": 10.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "THÉ GOURMAND",
+          "slug": "th-gourmand",
+          "category": "DESSERTS MAISON GOURMANDS",
+          "description": null,
+          "price": 10.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "DESSERTS GOURMANDS",
+          "slug": "desserts-gourmands",
+          "category": "DESSERTS MAISON GOURMANDS",
+          "description": null,
+          "price": 2.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "DESSERTS GOURMANDS",
+          "slug": "desserts-gourmands",
+          "category": "DESSERTS MAISON GOURMANDS",
+          "description": null,
+          "price": 3.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "LE LOUKOUM",
+          "slug": "le-loukoum",
+          "category": "DESSERTS MAISON GOURMANDS",
+          "description": null,
+          "price": 3.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "DESSERTS GLACÉS",
+      "slug": "desserts-glacs",
+      "items": [
+        {
+          "sku": null,
+          "name": "NOUGAT GLACÉ",
+          "slug": "nougat-glac",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "DAME BLANCHE",
+          "slug": "dame-blanche",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CAFÉ LIEGEOIS",
+          "slug": "caf-liegeois",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CHOCOLAT LIÉGEOIS",
+          "slug": "chocolat-ligeois",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PROFITEROLES",
+          "slug": "profiteroles",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MYSTERE",
+          "slug": "mystere",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE COLONEL",
+          "slug": "coupe-colonel",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CITRON GIVRÉ",
+          "slug": "citron-givr",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "POIRE BELLE-HÉLÈNE",
+          "slug": "poire-belle-hlne",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GLACE RHUM-RAISIN avec Rhum",
+          "slug": "glace-rhum-raisin-avec-rhum",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 7.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLÉMENT boule de glace : vanille, caramel, café, pistache, chocolat, fraise, cassis, framboise, citron, pêche, menthe chocolat",
+          "slug": "supplment-boule-de-glace--vanille-caramel-caf-pistache-chocolat-fraise-cassis-framboise-citron-pche-menthe-chocolat",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 2.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PÊCHE MELBA",
+          "slug": "pche-melba",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BANANA SPLIT",
+          "slug": "banana-split",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE MARECHAL",
+          "slug": "coupe-marechal",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE BAILEY'S",
+          "slug": "coupe-baileys",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CITRON GIVRÉ - ORANGE GIVRÉ - COCO GIVRÉ (au choix)",
+          "slug": "citron-givr---orange-givr---coco-givr-au-choix",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE AFTER EIGHT",
+          "slug": "coupe-after-eight",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BANANA SPLIT (boule de vanille, chocolat, banane)",
+          "slug": "banana-split-boule-de-vanille-chocolat-banane",
+          "category": "DESSERTS GLACÉS",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES VINS MAROCAINS",
+      "slug": "les-vins-marocains",
+      "items": [
+        {
+          "sku": null,
+          "name": "GUERROUANE Rouge Ou Rosé 37,5 Cl  A.O.G",
+          "slug": "guerrouane-rouge-ou-ros-375-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 14.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GUERROUANE Rouge Ou Rosé 75 Cl  A.O.G",
+          "slug": "guerrouane-rouge-ou-ros-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOULAOUANE sérigraphie Rouge Ou Rosé 37,5 Cl",
+          "slug": "boulaouane-srigraphie-rouge-ou-ros-375-cl",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 14.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOULAOUANE sérigraphie Rouge Ou Rosé 75 Cl",
+          "slug": "boulaouane-srigraphie-rouge-ou-ros-75-cl",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "RIAD JAMIL 75 Cl  A.O.G",
+          "slug": "riad-jamil-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 27.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MD Excellence Rouge ou rosé nommé \"Médaillon\" 75 Cl  A.O.G",
+          "slug": "md-excellence-rouge-ou-ros-nomm-mdaillon-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 29.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MD Excellence Rouge ou rosé nommé \"Médaillon\" 37,5 Cl  A.O.G",
+          "slug": "md-excellence-rouge-ou-ros-nomm-mdaillon-375-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 16.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GUERROUANE Rouge Ou Rosé 37,5 Cl  A.O.G",
+          "slug": "guerrouane-rouge-ou-ros-375-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 12.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GUERROUANE Rouge Ou Rosé 75 Cl  A.O.G",
+          "slug": "guerrouane-rouge-ou-ros-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOULAOUANE sérigraphie Rouge Ou Rosé 37,5 Cl",
+          "slug": "boulaouane-srigraphie-rouge-ou-ros-375-cl",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 12.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BOULAOUANE sérigraphie Rouge Ou Rosé 75 Cl",
+          "slug": "boulaouane-srigraphie-rouge-ou-ros-75-cl",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "RIAD JAMIL 75 Cl  A.O.G",
+          "slug": "riad-jamil-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 25.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MD Excellence Rouge ou rosé nommé \"Médaillon\" 75 Cl  A.O.G",
+          "slug": "md-excellence-rouge-ou-ros-nomm-mdaillon-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 26.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MD Excellence Rouge ou rosé nommé \"Médaillon\" 37,5 Cl  A.O.G",
+          "slug": "md-excellence-rouge-ou-ros-nomm-mdaillon-375-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 14.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BENI M’TIR Rouge Ou Rosé 37,5 Cl A.O.C",
+          "slug": "beni-mtir-rouge-ou-ros-375-cl-aoc",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 12.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BENI M’TIR Rouge Ou Rosé 75 Cl  A.O.C",
+          "slug": "beni-mtir-rouge-ou-ros-75-cl-aoc",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SIDI BRAHIM Rouge Ou Rosé 37,5 Cl  A.O.C",
+          "slug": "sidi-brahim-rouge-ou-ros-375-cl-aoc",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 11.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SIDI BRAHIM Rouge Ou Rosé 75 Cl  A.O.C",
+          "slug": "sidi-brahim-rouge-ou-ros-75-cl-aoc",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 17.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KSAR Merlot SYRAH Rouge Ou Rosé 75 Cl",
+          "slug": "ksar-merlot-syrah-rouge-ou-ros-75-cl",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 24.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KSAR Merlot SYRAH Rouge Ou Rosé 37,5 Cl",
+          "slug": "ksar-merlot-syrah-rouge-ou-ros-375-cl",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 14.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GUERROUANE AIN LORMA Rouge Ou Rosé 75 Cl  A.O.G",
+          "slug": "guerrouane-ain-lorma-rouge-ou-ros-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 20.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GUERROUANE AIN LORMA Rouge Ou Rosé 37,5 Cl  A.O.G",
+          "slug": "guerrouane-ain-lorma-rouge-ou-ros-375-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 13.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SYRAH HALANA BENI M’TIR Rouge Ou Rosé 75 Cl A.O.G",
+          "slug": "syrah-halana-beni-mtir-rouge-ou-ros-75-cl-aog",
+          "category": "LES VINS MAROCAINS",
+          "description": null,
+          "price": 24.3,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES VINS FRANCAIS",
+      "slug": "les-vins-francais",
+      "items": [
+        {
+          "sku": null,
+          "name": "VERRE DE VIN Rouge ou Rosé",
+          "slug": "verre-de-vin-rouge-ou-ros",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VIN EN PICHET 25 Cl",
+          "slug": "vin-en-pichet-25-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VIN EN PICHET 50 Cl",
+          "slug": "vin-en-pichet-50-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 12.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DU RHÔNE Rouge 37,5 Cl",
+          "slug": "ctes-du-rhne-rouge-375-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 13.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DU RHÔNE Rouge 75 Cl",
+          "slug": "ctes-du-rhne-rouge-75-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DE PROVENCE Rosé 37,5 Cl",
+          "slug": "ctes-de-provence-ros-375-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 12.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DE PROVENCE LA SANTONNIERE Rosé 75 Cl A.O.P",
+          "slug": "ctes-de-provence-la-santonniere-ros-75-cl-aop",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VERRE DE VIN Rouge ou Rosé",
+          "slug": "verre-de-vin-rouge-ou-ros",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VIN EN PICHET 25 Cl",
+          "slug": "vin-en-pichet-25-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "VIN EN PICHET 50 Cl",
+          "slug": "vin-en-pichet-50-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 10.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DU RHÔNE Rouge 37,5 Cl",
+          "slug": "ctes-du-rhne-rouge-375-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 11.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DU RHÔNE Rouge 75 Cl",
+          "slug": "ctes-du-rhne-rouge-75-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 16.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DE PROVENCE Rosé 37,5 Cl",
+          "slug": "ctes-de-provence-ros-375-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 11.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTES DE PROVENCE LA SANTONNIERE Rosé 75 Cl A.O.P",
+          "slug": "ctes-de-provence-la-santonniere-ros-75-cl-aop",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 16.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BORDEAUX Rouge 37,5 Cl",
+          "slug": "bordeaux-rouge-375-cl",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 11.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BORDEAUX ROYAL Rouge 75 Cl A.O.C",
+          "slug": "bordeaux-royal-rouge-75-cl-aoc",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SAINT-EMILION CROIX ST ROC Rouge 75 Cl A.O.C",
+          "slug": "saint-emilion-croix-st-roc-rouge-75-cl-aoc",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 28.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SAINT-EMILION LAJARDE Rouge 75 Cl A.O.C",
+          "slug": "saint-emilion-lajarde-rouge-75-cl-aoc",
+          "category": "LES VINS FRANCAIS",
+          "description": null,
+          "price": 36.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Concombre, salade, tomate,  endives, oeufs, carottes rapées",
+      "slug": "concombre-salade-tomate-endives-oeufs-carottes-rapes",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE OCÉANE",
+          "slug": "salade-ocane",
+          "category": "Concombre, salade, tomate,  endives, oeufs, carottes rapées",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Crevettes, thon, avocat, salade, tomates et olives",
+      "slug": "crevettes-thon-avocat-salade-tomates-et-olives",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE MEDITERRANÉE",
+          "slug": "salade-mediterrane",
+          "category": "Crevettes, thon, avocat, salade, tomates et olives",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Fennouil, pomme de terre",
+      "slug": "fennouil-pomme-de-terre",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA POULET",
+          "slug": "tajine-oujda-poulet",
+          "category": "Fennouil, pomme de terre",
+          "description": null,
+          "price": 19.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA AGNEAU",
+          "slug": "tajine-oujda-agneau",
+          "category": "Fennouil, pomme de terre",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE FES MROUZIA SUCRE/SALE AGNEAU",
+          "slug": "tajine-fes-mrouzia-sucresale-agneau",
+          "category": "Fennouil, pomme de terre",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE OUJDA POULET (AGNEAU  +1€)",
+          "slug": "tajine-oujda-poulet-agneau-1",
+          "category": "Fennouil, pomme de terre",
+          "description": null,
+          "price": 19.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Artichauds, Petits Pois, poulet Et Oignons",
+      "slug": "artichauds-petits-pois-poulet-et-oignons",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF POULET",
+          "slug": "tajine-du-chef-poulet",
+          "category": "Artichauds, Petits Pois, poulet Et Oignons",
+          "description": null,
+          "price": 20.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF POULET",
+          "slug": "tajine-du-chef-poulet",
+          "category": "Artichauds, Petits Pois, poulet Et Oignons",
+          "description": null,
+          "price": 20.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Fennouil, pomme de terre, agneau",
+      "slug": "fennouil-pomme-de-terre-agneau",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR AGNEAU",
+          "slug": "tajine-agadir-agneau",
+          "category": "Fennouil, pomme de terre, agneau",
+          "description": null,
+          "price": 21.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Crevettes et marinade à la marocaine",
+      "slug": "crevettes-et-marinade--la-marocaine",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE TANGER CABILLAUD",
+          "slug": "tajine-tanger-cabillaud",
+          "category": "Crevettes et marinade à la marocaine",
+          "description": null,
+          "price": 23.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Merguez, brochette poulet, brochette Agneau et côte d'agneau",
+      "slug": "merguez-brochette-poulet-brochette-agneau-et-cte-dagneau",
+      "items": [
+        {
+          "sku": null,
+          "name": "MECHOUI D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "mechoui-dagneau-et-1-accompagnement-au-choix",
+          "category": "Merguez, brochette poulet, brochette Agneau et côte d'agneau",
+          "description": null,
+          "price": 23.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "brochettes-dagneau-et-1-accompagnement-au-choix",
+          "category": "Merguez, brochette poulet, brochette Agneau et côte d'agneau",
+          "description": null,
+          "price": 19.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BROCHETTES DE POULET ET 1 ACCOMPAGNEMENT \nAU CHOIX",
+          "slug": "brochettes-de-poulet-et-1-accompagnement-au-choix",
+          "category": "Merguez, brochette poulet, brochette Agneau et côte d'agneau",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CÔTE D’AGNEAU ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "cte-dagneau-et-1-accompagnement-au-choix",
+          "category": "Merguez, brochette poulet, brochette Agneau et côte d'agneau",
+          "description": null,
+          "price": 18.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MERGUEZ (4 pièces) ET 1 ACCOMPAGNEMENT AU CHOIX",
+          "slug": "merguez-4-pices-et-1-accompagnement-au-choix",
+          "category": "Merguez, brochette poulet, brochette Agneau et côte d'agneau",
+          "description": null,
+          "price": 16.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES VINS ALGÉRIENS",
+      "slug": "les-vins-algriens",
+      "items": [
+        {
+          "sku": null,
+          "name": "SAINT AUGUSTIN Rouge ou Rosé 75 Cl A.O.G",
+          "slug": "saint-augustin-rouge-ou-ros-75-cl-aog",
+          "category": "LES VINS ALGÉRIENS",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KOUTOUBIA Rouge ou Rosé 75 Cl A.O.G",
+          "slug": "koutoubia-rouge-ou-ros-75-cl-aog",
+          "category": "LES VINS ALGÉRIENS",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KOUTOUBIA Rouge ou Rosé 37,5 Cl A.O.G",
+          "slug": "koutoubia-rouge-ou-ros-375-cl-aog",
+          "category": "LES VINS ALGÉRIENS",
+          "description": null,
+          "price": 12.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Sorbet Citron, Vodka",
+      "slug": "sorbet-citron-vodka",
+      "items": [
+        {
+          "sku": null,
+          "name": "COUPE MARECHAL",
+          "slug": "coupe-marechal",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE BAILEY'S",
+          "slug": "coupe-baileys",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CITRON GIVRÉ - ORANGE GIVRÉ - COCO GIVRÉ (au choix)",
+          "slug": "citron-givr---orange-givr---coco-givr-au-choix",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "POIRE BELLE-HÉLÈNE",
+          "slug": "poire-belle-hlne",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE AFTER EIGHT",
+          "slug": "coupe-after-eight",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GLACE RHUM-RAISIN avec Rhum",
+          "slug": "glace-rhum-raisin-avec-rhum",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 7.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLÉMENT boule de glace : vanille, caramel, café, pistache, chocolat, fraise, cassis, framboise, citron, pêche, menthe chocolat",
+          "slug": "supplment-boule-de-glace--vanille-caramel-caf-pistache-chocolat-fraise-cassis-framboise-citron-pche-menthe-chocolat",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 2.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUPPLÉMENT boule de glace : vanille, caramel, café, peche, chocolat, fraise, citron etc.",
+          "slug": "supplment-boule-de-glace--vanille-caramel-caf-peche-chocolat-fraise-citron-etc",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 2.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "JUS DE BANANE",
+          "slug": "jus-de-banane",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 7.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "GLACE RHUM-RAISIN",
+          "slug": "glace-rhum-raisin",
+          "category": "Sorbet Citron, Vodka",
+          "description": null,
+          "price": 7.7,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "LES APERITIFS CLASSIQUES",
+      "slug": "les-aperitifs-classiques",
+      "items": [
+        {
+          "sku": null,
+          "name": "KIR ROYAL (Cassis, mûre, framboise, fraise, pêche) 12 Cl",
+          "slug": "kir-royal-cassis-mre-framboise-fraise-pche-12-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 7.8,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "KIR (Cassis, mûre, framboise, fraise, pêche) 12 Cl",
+          "slug": "kir-cassis-mre-framboise-fraise-pche-12-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "ANISETTE 2,5 Cl",
+          "slug": "anisette-25-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PASTIS 2,5 Cl",
+          "slug": "pastis-25-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "RICARD 2,5CL",
+          "slug": "ricard-25cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "PORTO Blanc et Rouge  5 Cl",
+          "slug": "porto-blanc-et-rouge-5-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SUZE 5 Cl",
+          "slug": "suze-5-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CAMPARI 5 Cl",
+          "slug": "campari-5-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "MARTINI Blanc et Rouge5 Cl",
+          "slug": "martini-blanc-et-rouge5-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 5.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "COUPE DE CHAMPAGNE 8 Cl",
+          "slug": "coupe-de-champagne-8-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "HEINEKEN, 1664  25 Cl",
+          "slug": "heineken-1664-25-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 4.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "BIERE CASABLANCA 33 Cl",
+          "slug": "biere-casablanca-33-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 6.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CHAMPAGNES",
+          "slug": "champagnes",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 4.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "J&B 4 Cl",
+          "slug": "jb-4-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 6.8,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "JOHNNIE WALKER 4 Cl",
+          "slug": "johnnie-walker-4-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 7.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "CHIVAS / JACK DANIELS 4 Cl",
+          "slug": "chivas--jack-daniels-4-cl",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 8.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "WHISKY, J&B, JOHNNIE WALKER  4 Cl + COCA COLA",
+          "slug": "whisky-jb-johnnie-walker-4-cl--coca-cola",
+          "category": "LES APERITIFS CLASSIQUES",
+          "description": null,
+          "price": 9.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "NOTRE SALADE (PLAT)",
+      "slug": "notre-salade-plat",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE COMPOSÉE",
+          "slug": "salade-compose",
+          "category": "NOTRE SALADE (PLAT)",
+          "description": null,
+          "price": 16.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Avocat, Salade Verte, Thon, Maïs, Tomates et Olives",
+      "slug": "avocat-salade-verte-thon-mas-tomates-et-olives",
+      "items": [
+        {
+          "sku": null,
+          "name": "SALADE FRAICHEUR",
+          "slug": "salade-fraicheur",
+          "category": "Avocat, Salade Verte, Thon, Maïs, Tomates et Olives",
+          "description": null,
+          "price": 16.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SALADE OCEANE",
+          "slug": "salade-oceane",
+          "category": "Avocat, Salade Verte, Thon, Maïs, Tomates et Olives",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "SALADE MEDITERRANEE",
+          "slug": "salade-mediterranee",
+          "category": "Avocat, Salade Verte, Thon, Maïs, Tomates et Olives",
+          "description": null,
+          "price": 18.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "TAJINES",
+      "slug": "tajines",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET",
+          "slug": "tajine-agadir-poulet",
+          "category": "TAJINES",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGNEAU AUX 4 FRUITS",
+          "slug": "tajine-agneau-aux-4-fruits",
+          "category": "TAJINES",
+          "description": null,
+          "price": 21.9,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Pruneaux, amandes grillées",
+      "slug": "pruneaux-amandes-grilles",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS POULET",
+          "slug": "tajine-atlas-poulet",
+          "category": "Pruneaux, amandes grillées",
+          "description": null,
+          "price": 18.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE ATLAS AGNEAU",
+          "slug": "tajine-atlas-agneau",
+          "category": "Pruneaux, amandes grillées",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET",
+          "slug": "tajine-rabat-poulet",
+          "category": "Pruneaux, amandes grillées",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET  (AGNEAU  +1€)",
+          "slug": "tajine-agadir-poulet-agneau-1",
+          "category": "Pruneaux, amandes grillées",
+          "description": null,
+          "price": 18.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Ananas caramelisés, pruneaux, figues et abricots",
+      "slug": "ananas-carameliss-pruneaux-figues-et-abricots",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE FES MROUZIA SUCRE/SALE AGNEAU",
+          "slug": "tajine-fes-mrouzia-sucresale-agneau",
+          "category": "Ananas caramelisés, pruneaux, figues et abricots",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE AGADIR POULET (AGNEAU  +1€)",
+          "slug": "tajine-agadir-poulet-agneau-1",
+          "category": "Ananas caramelisés, pruneaux, figues et abricots",
+          "description": null,
+          "price": 20.0,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Coings Caramélisés (selon saison - à partir d'Octobre)",
+      "slug": "coings-caramliss-selon-saison----partir-doctobre",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE KEFTA DE BŒUF",
+          "slug": "tajine-kefta-de-buf",
+          "category": "Coings Caramélisés (selon saison - à partir d'Octobre)",
+          "description": null,
+          "price": 17.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAGINE AUX LÉGUMES",
+          "slug": "tagine-aux-lgumes",
+          "category": "Coings Caramélisés (selon saison - à partir d'Octobre)",
+          "description": null,
+          "price": 15.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE CASA ARTICHAUDS AGNEAU",
+          "slug": "tajine-casa-artichauds-agneau",
+          "category": "Coings Caramélisés (selon saison - à partir d'Octobre)",
+          "description": null,
+          "price": 20.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE RABAT POULET (AGNEAU  +1€)",
+          "slug": "tajine-rabat-poulet-agneau-1",
+          "category": "Coings Caramélisés (selon saison - à partir d'Octobre)",
+          "description": null,
+          "price": 19.5,
+          "currency": "EUR",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Artichauds, Petits Pois Et Oignons",
+      "slug": "artichauds-petits-pois-et-oignons",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE DELICES",
+          "slug": "tajine-delices",
+          "category": "Artichauds, Petits Pois Et Oignons",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        },
+        {
+          "sku": null,
+          "name": "TAJINE DU CHEF AGNEAU",
+          "slug": "tajine-du-chef-agneau",
+          "category": "Artichauds, Petits Pois Et Oignons",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "ACCOMPAGNEMENT : Semoule ou Pain",
+      "slug": "accompagnement--semoule-ou-pain",
+      "items": [
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "ACCOMPAGNEMENT : Semoule ou Pain",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "POISSONS",
+      "slug": "poissons",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE SAFI PILPIL",
+          "slug": "tajine-safi-pilpil",
+          "category": "POISSONS",
+          "description": null,
+          "price": 22.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Semoule ou Pain",
+      "slug": "semoule-ou-pain",
+      "items": [
+        {
+          "sku": null,
+          "name": "SUPPLEMENT frites",
+          "slug": "supplement-frites",
+          "category": "Semoule ou Pain",
+          "description": null,
+          "price": 5.0,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    },
+    {
+      "name": "Pruneaux, Oeufs, Amandes Grillées",
+      "slug": "pruneaux-oeufs-amandes-grilles",
+      "items": [
+        {
+          "sku": null,
+          "name": "TAJINE DELICES",
+          "slug": "tajine-delices",
+          "category": "Pruneaux, Oeufs, Amandes Grillées",
+          "description": null,
+          "price": 19.5,
+          "currency": "MAD",
+          "image": null,
+          "available": true,
+          "tags": null
+        }
+      ]
+    }
+  ]
+}
