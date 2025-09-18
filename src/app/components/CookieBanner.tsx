@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useCookieConsent } from "@/providers/cookie-consent-provider";
 
-const toggleClasses = "relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2";
-const thumbClasses = "pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200";
+const toggleClasses =
+  "relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2";
+const thumbClasses =
+  "pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200";
 
 const CookieBanner = () => {
   const {
@@ -57,18 +59,23 @@ const CookieBanner = () => {
               Gestion des cookies
             </h2>
             <p className="text-sm text-charcoal/80">
-              Nous utilisons des cookies pour sécuriser votre navigation, mesurer l’audience et
-              améliorer nos services. Vous pouvez accepter l’ensemble des cookies, refuser ceux qui
-              ne sont pas essentiels ou personnaliser vos choix. Pour en savoir plus, consultez notre{' '}
-              <Link href="/politique-de-confidentialite" className="text-primary hover:text-accent underline">
+              Nous utilisons des cookies pour sécuriser votre navigation,
+              mesurer l’audience et améliorer nos services. Vous pouvez accepter
+              l’ensemble des cookies, refuser ceux qui ne sont pas essentiels ou
+              personnaliser vos choix. Pour en savoir plus, consultez notre{" "}
+              <Link
+                href="/politique-de-confidentialite"
+                className="text-primary hover:text-accent underline"
+              >
                 politique de confidentialité
-              </Link>.
+              </Link>
+              .
             </p>
             <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end">
               <button
                 type="button"
                 onClick={rejectAll}
-                className="rounded-full border border-charcoal px-5 py-2 text-sm font-semibold text-charcoal transition-colors hover:bg-charcoal hover:text-[#F9F5ED]"
+                className="rounded-full border border-charcoal bg-transparent px-5 py-2 text-sm font-semibold text-charcoal transition-colors hover:bg-charcoal hover:text-[#F9F5ED]"
               >
                 Refuser tout
               </button>
@@ -96,10 +103,13 @@ const CookieBanner = () => {
           <div className="w-full max-w-3xl rounded-2xl bg-white p-6 md:p-8 shadow-2xl">
             <div className="flex items-start justify-between gap-4">
               <div>
-                <h2 className="text-2xl font-serif text-primary">Préférences cookies</h2>
+                <h2 className="text-2xl font-serif text-primary">
+                  Préférences cookies
+                </h2>
                 <p className="mt-2 text-sm text-charcoal/70">
-                  Réglez l’utilisation des cookies facultatifs. Les cookies strictement nécessaires
-                  sont toujours activés afin d’assurer le bon fonctionnement du site.
+                  Réglez l’utilisation des cookies facultatifs. Les cookies
+                  strictement nécessaires sont toujours activés afin d’assurer
+                  le bon fonctionnement du site.
                 </p>
               </div>
               <button
@@ -116,7 +126,8 @@ const CookieBanner = () => {
                 <div>
                   <p className="font-semibold text-charcoal">Nécessaires</p>
                   <p className="text-sm text-charcoal/70">
-                    Indispensables au fonctionnement du site (sécurité, stockage de vos choix).
+                    Indispensables au fonctionnement du site (sécurité, stockage
+                    de vos choix).
                   </p>
                 </div>
                 <span className="rounded-full bg-gray-200 px-3 py-1 text-xs font-semibold text-charcoal/60">
@@ -126,9 +137,12 @@ const CookieBanner = () => {
 
               <div className="flex items-center justify-between rounded-xl border border-gray-200 p-4">
                 <div>
-                  <p className="font-semibold text-charcoal">Mesure d’audience</p>
+                  <p className="font-semibold text-charcoal">
+                    Mesure d’audience
+                  </p>
                   <p className="text-sm text-charcoal/70">
-                    Nous aide à comprendre l’utilisation du site pour améliorer l’expérience.
+                    Nous aide à comprendre l’utilisation du site pour améliorer
+                    l’expérience.
                   </p>
                 </div>
                 <button
@@ -153,7 +167,8 @@ const CookieBanner = () => {
                 <div>
                   <p className="font-semibold text-charcoal">Marketing</p>
                   <p className="text-sm text-charcoal/70">
-                    Permet de vous proposer des contenus personnalisés sur nos offres et événements.
+                    Permet de vous proposer des contenus personnalisés sur nos
+                    offres et événements.
                   </p>
                 </div>
                 <button
