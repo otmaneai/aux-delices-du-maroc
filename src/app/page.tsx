@@ -152,14 +152,6 @@ export default function Home() {
         </section>
       </FadeIn>
 
-      {/* Ramadan Banner - Restyled */}
-      <FadeIn delay={0.3}>
-        <section className="w-full bg-primary text-center py-4">
-          <h2 className="text-2xl font-bold text-background">
-            Ouvert durant tout le mois de Ramadan
-          </h2>
-        </section>
-      </FadeIn>
 
       {/* Notre Histoire Section */}
       <FadeIn delay={0.4}>
