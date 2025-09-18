@@ -12,7 +12,7 @@ const NotreHistoire = () => {
               Notre histoire
             </span>
             <h2 className="text-4xl md:text-[3.1rem] leading-tight text-[var(--primary)]">
-              Une maison de famille, ouverte sur le monde
+              Une maison de tradition, ouverte sur le monde
             </h2>
             <p className="text-large text-[var(--muted)]">
               Née dans les ruelles lumineuses de Fès, notre maison a grandi avec l’ambition de
