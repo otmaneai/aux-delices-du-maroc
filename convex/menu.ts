@@ -1,5 +1,5 @@
 import { v } from "convex/values";
-import { mutation, query } from "./_generated/server";
+import { mutation, query, MutationCtx, QueryCtx } from "./_generated/server";
 
 // Create a new menu item
 export const createMenuItem = mutation({
@@ -11,7 +11,17 @@ export const createMenuItem = mutation({
     imageUrl: v.optional(v.string()),
     order: v.optional(v.number()),
   },
-  handler: async (ctx, args) => {
+  handler: async (
+    ctx: MutationCtx,
+    args: {
+      name: string;
+      description?: string;
+      price?: string;
+      category?: string;
+      imageUrl?: string;
+      order?: number;
+    }
+  ) => {
     const identity = await ctx.auth.getUserIdentity();
     if (!identity) {
       throw new Error("Not authenticated");
@@ -27,7 +37,7 @@ export const createMenuItem = mutation({
 
 // Delete all menu items
 export const deleteAllMenuItems = mutation({
-  handler: async (ctx) => {
+  handler: async (ctx: MutationCtx) => {
     const identity = await ctx.auth.getUserIdentity();
     if (!identity) {
       throw new Error("Not authenticated");
@@ -42,7 +52,7 @@ export const deleteAllMenuItems = mutation({
 // List all menu items
 export const listMenuItems = query({
   args: {},
-  handler: async (ctx, args) => {
+  handler: async (ctx: QueryCtx) => {
     return await ctx.db.query("menu_items").collect();
   },
 });
