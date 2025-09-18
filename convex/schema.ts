@@ -12,9 +12,21 @@ export default defineSchema({
     createdAt: v.number(),
     ip: v.optional(v.string()),
     userId: v.optional(v.string()), // Clerk user id if signed in
+    consent: v.optional(v.boolean()),
+    consentVersion: v.optional(v.string()),
+    consentTimestamp: v.optional(v.number()),
   })
     .index("by_createdAt", ["createdAt"])
     .index("by_email", ["email"]),
+  cookie_consents: defineTable({
+    analytics: v.boolean(),
+    marketing: v.boolean(),
+    method: v.string(),
+    consentVersion: v.string(),
+    createdAt: v.number(),
+    ip: v.optional(v.string()),
+    userAgent: v.optional(v.string()),
+  }).index("by_createdAt", ["createdAt"]),
   menu_items: defineTable({
     name: v.string(),
     description: v.optional(v.string()),

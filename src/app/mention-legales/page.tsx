@@ -15,6 +15,21 @@ const MentionLegalesPage = () => {
               <p><strong>Capital social :</strong> 10 000€</p>
               <p><strong>RCS :</strong> 879 419 364</p>
               <p><strong>Siège social :</strong> 268 Bd Henri Barbusse, 91210 Draveil</p>
+              <p><strong>SIRET :</strong> 879 419 364 00016</p>
+              <p><strong>TVA intracommunautaire :</strong> FR77 879419364</p>
+              <p><strong>Responsable de publication :</strong> Mme/M. Aiboud</p>
+              <p>
+                <strong>Contact :</strong>{' '}
+                <a href="mailto:contact@auxdelicesdumaroc.com" className="text-primary hover:text-accent transition-colors">
+                  contact@auxdelicesdumaroc.com
+                </a>
+              </p>
+              <p>
+                <strong>Référent protection des données :</strong>{' '}
+                <a href="mailto:dpo@auxdelicesdumaroc.com" className="text-primary hover:text-accent transition-colors">
+                  dpo@auxdelicesdumaroc.com
+                </a>
+              </p>
             </section>
 
             <section>
@@ -38,6 +53,27 @@ const MentionLegalesPage = () => {
             <section>
               <h2 className="text-3xl font-serif text-primary mb-4">Propriété intellectuelle</h2>
               <p className="mt-4">L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.</p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-serif text-primary mb-4">Protection des données personnelles</h2>
+              <p className="mt-4">
+                Les informations collectées via les formulaires de contact et de réservation sont
+                nécessaires à la gestion de vos demandes et réservations. Elles sont traitées par Aux
+                Délices du Maroc et peuvent être transmises à nos prestataires techniques strictement
+                nécessaires. Vous disposez d’un droit d’accès, de rectification, d’effacement et
+                d’opposition. Pour l’exercer, adressez un email à
+                <a href="mailto:dpo@auxdelicesdumaroc.com" className="text-primary hover:text-accent transition-colors">
+                  {' '}dpo@auxdelicesdumaroc.com
+                </a>.
+                Pour en savoir plus, consultez notre{' '}
+                <a
+                  href="/politique-de-confidentialite"
+                  className="text-primary hover:text-accent transition-colors"
+                >
+                  politique de confidentialité
+                </a>.
+              </p>
             </section>
           </div>
         </div>

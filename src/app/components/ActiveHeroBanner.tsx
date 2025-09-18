@@ -21,33 +21,19 @@ export default function ActiveHeroBanner() {
   if (typeof hero === "undefined") return null;
   if (!hero) return null;
 
-  const bg = hero?.imageUrl;
   return (
-    <section className="relative w-full">
-      <div className="relative overflow-hidden">
-        {bg ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={bg} alt={hero.title} className="w-full h-48 object-cover" />
-        ) : (
-          <div className="w-full h-28 bg-primary" />
-        )}
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute inset-0 flex items-center justify-center px-4">
-          <div className="max-w-4xl mx-auto text-center text-white drop-shadow">
-            <h2 className="text-2xl md:text-3xl font-serif font-semibold">
-              {hero.title}
-            </h2>
-            {hero.subtitle && (
-              <p className="text-sm md:text-base text-gray-200 mt-1">
-                {hero.subtitle}
-              </p>
-            )}
-            {hero.body && (
-              <p className="text-xs md:text-sm text-gray-100 mt-2 line-clamp-2">
-                {hero.body}
-              </p>
-            )}
-          </div>
+    <section className="w-full pt-6">
+      <div className="section-shell">
+        <div className="rounded-[var(--radius-md)] border border-[var(--border)] bg-[rgba(255,255,255,0.85)] px-5 py-4 text-center text-sm text-[var(--muted)] shadow-[0_20px_50px_-40px_rgba(24,16,12,0.7)] backdrop-blur">
+          <h2 className="text-lg md:text-xl font-serif text-[var(--primary)]">
+            {hero.title}
+          </h2>
+          {hero.subtitle ? <p className="mt-1">{hero.subtitle}</p> : null}
+          {hero.body ? (
+            <p className="mt-2 text-xs md:text-sm text-[var(--muted)]/90">
+              {hero.body}
+            </p>
+          ) : null}
         </div>
       </div>
     </section>

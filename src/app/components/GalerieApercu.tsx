@@ -16,41 +16,54 @@ const previewImages = [
 ];
 
 const GalerieApercu = () => {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 3000 }),
+  const [emblaRef] = useEmblaCarousel({ loop: true, skipSnaps: false }, [
+    Autoplay({ delay: 3200 }),
   ]);
 
   return (
-    <section className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto text-center px-6">
-        <h2 className="text-4xl md:text-5xl font-serif text-primary mb-12">
-          Un Aperçu de Notre Ambiance
-        </h2>
-      </div>
-      <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">
-          {previewImages.map((image, index) => (
-            <div
-              className="relative flex-grow-0 flex-shrink-0 w-full md:w-1/3 h-80 mx-2"
-              key={index}
-            >
-              <Image
-                src={image.src}
-                alt={image.alt}
-                fill
-                className="rounded-lg shadow-lg object-cover"
-              />
-            </div>
-          ))}
+    <section className="relative py-20 md:py-28">
+      <div className="section-shell">
+        <div className="text-center space-y-4 mb-12">
+          <span className="eyebrow">
+            <span className="divider" aria-hidden="true"></span>
+            Atmosphère
+          </span>
+          <h2 className="text-4xl md:text-[3rem] text-[var(--primary)]">
+            Une immersion au cœur de la maison
+          </h2>
+          <p className="text-large mx-auto max-w-3xl text-[var(--muted)]">
+            Lumière tamisée, art de la table raffiné, volumes sculptés : notre galerie capture
+            l’élégance d’un dîner aux chandelles dans un riad contemporain.
+          </p>
         </div>
-      </div>
-      <div className="text-center pt-12">
-        <Link
-          href="/galerie"
-          className="bg-primary text-charcoal font-bold py-3 px-8 rounded-full text-lg hover:bg-primary/90 hover:text-accent transition-all duration-300 shadow-lg hover:-translate-y-1 hover:shadow-xl"
-        >
-          Découvrir la Galerie Complète
-        </Link>
+        <div className="surface-card overflow-hidden">
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+              {previewImages.map((image, index) => (
+                <div
+                  className="relative flex-shrink-0 flex-grow-0 w-[80%] md:w-[33.333%] h-80 md:h-[420px]"
+                  key={index}
+                >
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    className="object-cover transition-transform duration-700 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[rgba(24,18,12,0.4)] to-transparent" />
+                  <p className="absolute bottom-6 left-6 text-white text-lg font-semibold drop-shadow-xl">
+                    {image.alt}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="text-center pt-12">
+          <Link href="/galerie" className="btn-cta">
+            <span>Découvrir la galerie complète</span>
+          </Link>
+        </div>
       </div>
     </section>
   );

@@ -26,6 +26,8 @@ export const createMessage = mutation({
     ip: v.optional(v.string()),
     userId: v.optional(v.string()),
     hp: v.optional(v.string()), // honeypot: if filled, we silently drop email
+    consent: v.optional(v.boolean()),
+    consentVersion: v.optional(v.string()),
   },
   handler: async (ctx: MutationCtx, args: any) => {
     const now = Date.now();
@@ -55,6 +57,9 @@ export const createMessage = mutation({
       createdAt: now,
       ip: args.ip,
       userId: args.userId,
+      consent: Boolean(args.consent),
+      consentVersion: args.consentVersion,
+      consentTimestamp: args.consent ? now : undefined,
     });
 
     // If honeypot is filled, skip email sending but report success
@@ -69,6 +74,7 @@ export const createMessage = mutation({
       phone: args.phone || "",
       subject: args.subject,
       message: args.message,
+      consentVersion: args.consentVersion || "N/A",
     });
 
     return { id, emailed: true };
@@ -81,17 +87,12 @@ const sendNotificationEmailArgs = {
   phone: v.string(),
   subject: v.string(),
   message: v.string(),
+  consentVersion: v.optional(v.string()),
 };
 
 // Action: send email via Resend
 export const sendNotificationEmail = action({
-  args: {
-    name: v.string(),
-    email: v.string(),
-    phone: v.string(),
-    subject: v.string(),
-    message: v.string(),
-  },
+  args: sendNotificationEmailArgs,
   handler: async (_ctx: ActionCtx, args: any) => {
     const apiKey = process.env.RESEND_API_KEY;
     const target = process.env.CONTACT_TARGET_EMAIL || "resa.addm@gmail.com";
@@ -108,6 +109,14 @@ export const sendNotificationEmail = action({
         <p><strong>Subject:</strong> ${sanitize(args.subject)}</p>
         <p><strong>Message:</strong></p>
         <pre style="white-space:pre-wrap">${sanitize(args.message)}</pre>
+        <hr style="margin:16px 0; border:none; border-top:1px solid #eee" />
+        <p style="font-size:14px; color:#555">
+          Vous recevez cet email car un utilisateur a rempli un formulaire sur auxdelicesdumaroc.com.
+          Le consentement RGPD associé est enregistré (version ${sanitize(
+            args.consentVersion || "N/A"
+          )}). Pour supprimer ou modifier cette demande, contactez le client ou écrivez à
+          <a href="mailto:dpo@auxdelicesdumaroc.com"> dpo@auxdelicesdumaroc.com</a>.
+        </p>
       </div>
     `;
 

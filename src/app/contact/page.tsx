@@ -9,15 +9,15 @@ const ContactPage = () => {
         subtitle="Nous sommes à votre disposition pour toute question. N'hésitez pas à nous appeler ou à nous rendre visite."
       />
 
-      <main className="container mx-auto px-4 pb-16 md:pb-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
-          <div className="bg-white/50 p-8 md:p-10 rounded-lg shadow-sm">
+      <main className="section-shell pb-24">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-[1.05fr_0.95fr] items-start">
+          <div className="surface-card p-8 md:p-10 space-y-6 text-left">
             <h2 className="subsection-title">Informations</h2>
 
-            <div className="space-y-6">
+            <div className="space-y-6 text-[var(--muted)]">
               <div>
                 <h3 className="item-title mb-2">Adresse</h3>
-                <p className="text-body">
+                <p className="text-body text-[var(--muted)]">
                   268 Bd Henri Barbusse, 91210 Draveil
                 </p>
               </div>
@@ -54,16 +54,16 @@ const ContactPage = () => {
             </div>
 
             <a href="/reservation" className="mt-10 btn-cta">
-              Réserver une Table
+              <span>Réserver une Table</span>
             </a>
           </div>
 
-          <div className="h-96 md:h-full w-full rounded-lg shadow-lg overflow-hidden">
+          <div className="surface-card p-2 md:p-3">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.593442475424!2d2.408283677448273!3d48.69234001225549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5df5049c9e573%3A0x44b93a2a31451926!2sAux%20D%C3%A9lices%20du%20Maroc!5e0!3m2!1sfr!2sfr!4v1673883731189!5m2!1sfr!2sfr"
               width="100%"
               height="100%"
-              style={{ border: 0 }}
+              style={{ border: 0, minHeight: "420px", borderRadius: "var(--radius-md)" }}
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

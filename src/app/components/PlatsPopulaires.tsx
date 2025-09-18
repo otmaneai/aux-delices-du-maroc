@@ -25,42 +25,46 @@ const featuredDishes = [
 
 const PlatsPopulaires = () => {
   return (
-    <section className="py-16 md:py-24 bg-gray-50 w-full">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-4xl md:text-5xl font-serif text-primary mb-12">
-          Nos Incontournables
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <section className="relative py-20 md:py-28">
+      <div className="section-shell">
+        <div className="text-center space-y-4 mb-14">
+          <span className="eyebrow">
+            <span className="divider" aria-hidden="true"></span>
+            Signatures culinaires
+          </span>
+          <h2 className="text-4xl md:text-[3rem] text-[var(--primary)]">
+            Les incontournables de notre carte
+          </h2>
+          <p className="text-large mx-auto max-w-3xl text-[var(--muted)]">
+            Des classiques intemporels revisités avec modernité : chaque plat révèle un équilibre
+            subtil entre raffinement gastronomique et âme marocaine.
+          </p>
+        </div>
+        <div className="grid gap-10 md:grid-cols-3">
           {featuredDishes.map((dish, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
-            >
-              <div className="relative h-64 w-full">
+            <div key={index} className="surface-card overflow-hidden transition-transform duration-500 hover:-translate-y-3">
+              <div className="relative h-60 overflow-hidden">
                 <Image
                   src={dish.image}
                   alt={dish.name}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform duration-500 hover:scale-110"
                 />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-serif text-charcoal mb-3">
-                  {dish.name}
-                </h3>
-                <p className="text-charcoal leading-relaxed">
-                  {dish.description}
+                <div className="absolute inset-0 bg-gradient-to-t from-[rgba(20,12,8,0.55)] to-transparent" />
+                <p className="absolute bottom-4 left-5 text-[0.75rem] uppercase tracking-[0.24em] text-white/80">
+                  Plat Signature
                 </p>
+              </div>
+              <div className="space-y-3 p-8 text-left">
+                <h3 className="text-2xl font-serif text-charcoal">{dish.name}</h3>
+                <p className="text-[var(--muted)] leading-relaxed">{dish.description}</p>
               </div>
             </div>
           ))}
         </div>
-        <div className="mt-12">
-          <Link
-            href="/notre-carte"
-            className="bg-primary text-charcoal font-bold py-3 px-8 rounded-full text-lg hover:bg-primary/90 hover:text-accent transition-all duration-300 shadow-lg"
-          >
-            Découvrir Toute la Carte
+        <div className="mt-14 flex justify-center">
+          <Link href="/notre-carte" className="btn-cta btn-cta--outline">
+            <span>Découvrir toute la carte</span>
           </Link>
         </div>
       </div>

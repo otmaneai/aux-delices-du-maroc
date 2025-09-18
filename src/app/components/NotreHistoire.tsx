@@ -3,37 +3,51 @@ import Image from "next/image";
 
 const NotreHistoire = () => {
   return (
-    <section className="py-16 md:py-24 bg-background bg-moroccan-pattern">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="order-2 md:order-1">
-            <h2 className="text-4xl md:text-5xl font-serif text-primary mb-6">
-              Notre Histoire
+    <section className="relative py-20 md:py-28">
+      <div className="section-shell">
+        <div className="grid items-center gap-14 md:grid-cols-[1.05fr_0.95fr]">
+          <div className="space-y-6">
+            <span className="eyebrow">
+              <span className="divider" aria-hidden="true"></span>
+              Notre histoire
+            </span>
+            <h2 className="text-4xl md:text-[3.1rem] leading-tight text-[var(--primary)]">
+              Une maison de famille, ouverte sur le monde
             </h2>
-            <p className="text-lg text-charcoal leading-relaxed mb-4">
-              L'histoire d'Aux Délices du Maroc n'est pas celle d'un simple
-              restaurant, mais celle d'un voyage. Un voyage qui commence dans
-              les ruelles embaumées de Fès, où les secrets du safran et de la
-              cannelle se murmurent de mère en fille. C'est là, dans la chaleur
-              d'une cuisine familiale, qu'est née la promesse de partager un
-              jour ces trésors culinaires, bien au-delà des frontières du Maroc.
+            <p className="text-large text-[var(--muted)]">
+              Née dans les ruelles lumineuses de Fès, notre maison a grandi avec l’ambition de
+              sublimer les recettes familiales et de les inscrire dans une expérience haute
+              couture. Aux Délices du Maroc, chaque assiette raconte un voyage soigneusement
+              orchestré.
             </p>
-            <p className="text-lg text-charcoal leading-relaxed">
-              Aujourd'hui, cette promesse vit dans chacun de nos plats. Nous
-              choisissons nos épices avec le soin d'un orfèvre et nos
-              ingrédients pour leur noblesse, car chaque tajine est une
-              célébration. C'est une parcelle de notre âme que nous vous
-              offrons, une invitation à un festin où la générosité marocaine est
-              reine. Bienvenue chez vous.
-            </p>
+            <div className="surface-card p-6 md:p-8 space-y-4">
+              <p className="text-lg text-charcoal leading-relaxed">
+                Aujourd’hui, notre équipe met à l’honneur les épices rares, les produits nobles et
+                l’art du service français, tout en préservant la générosité marocaine. Tajines,
+                couscous, pâtisseries délicates : tout est réalisé maison, avec le soin d’un
+                orfèvre.
+              </p>
+              <blockquote className="border-l-4 border-[var(--accent)] pl-4 text-sm uppercase tracking-[0.2em] text-[var(--muted)]">
+                « Nous façonnons des souvenirs, pas seulement des repas. »
+              </blockquote>
+            </div>
           </div>
-          <div className="order-1 md:order-2 h-80 md:h-full w-full relative rounded-lg overflow-hidden shadow-lg">
-            <Image
-              src="/gallery/4.webp"
-              alt="Ambiance élégante et chaleureuse du restaurant"
-              fill
-              className="transition-transform duration-500 hover:scale-110 object-cover"
-            />
+          <div className="relative">
+            <div className="surface-card overflow-hidden">
+              <Image
+                src="/gallery/salle%20une.webp"
+                alt="Salle principale du restaurant, élégante et lumineuse"
+                width={720}
+                height={560}
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="absolute -bottom-8 left-8 hidden md:block rounded-[var(--radius-md)] bg-[rgba(40,31,27,0.9)] px-6 py-5 text-sm text-[var(--surface)] shadow-[0_20px_45px_-30px_rgba(24,16,12,0.75)]">
+              <p className="text-xs uppercase tracking-[0.3em] text-[rgba(255,255,255,0.6)]">
+                Signature
+              </p>
+              <p className="mt-2 font-semibold text-lg">Cuisine de partage, esprit palace.</p>
+            </div>
           </div>
         </div>
       </div>

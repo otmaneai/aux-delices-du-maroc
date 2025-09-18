@@ -14,6 +14,7 @@ import type {
   FunctionReference,
 } from "convex/server";
 import type * as contact from "../contact.js";
+import type * as cookieConsents from "../cookieConsents.js";
 import type * as gallery from "../gallery.js";
 import type * as hero from "../hero.js";
 import type * as menu from "../menu.js";
@@ -29,6 +30,7 @@ import type * as menuSections from "../menuSections.js";
  */
 declare const fullApi: ApiFromModules<{
   contact: typeof contact;
+  cookieConsents: typeof cookieConsents;
   gallery: typeof gallery;
   hero: typeof hero;
   menu: typeof menu;

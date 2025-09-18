@@ -20,6 +20,7 @@ interface ReservationEmailProps {
   time: string;
   guests: string;
   message?: string;
+  consentVersion?: string;
 }
 
 const ReservationEmail = ({
@@ -30,6 +31,7 @@ const ReservationEmail = ({
   time,
   guests,
   message,
+  consentVersion,
 }: ReservationEmailProps) => (
   <Html>
     <Head />
@@ -64,12 +66,26 @@ const ReservationEmail = ({
             <Column style={label}>Personnes :</Column>
             <Column style={value}>{guests}</Column>
           </Row>
-          {message && (
+        {message && (
+          <Row style={row}>
+            <Column style={label}>Message :</Column>
+            <Column style={value}>{message}</Column>
+          </Row>
+        )}
+          {consentVersion && (
             <Row style={row}>
-              <Column style={label}>Message :</Column>
-              <Column style={value}>{message}</Column>
+              <Column style={label}>Consentement :</Column>
+              <Column style={value}>Accepté (version {consentVersion})</Column>
             </Row>
           )}
+        </Section>
+        <Section style={detailsSection}>
+          <Text style={{ fontSize: '14px', color: '#555' }}>
+            Vous recevez cet email car un client a rempli le formulaire de réservation sur
+            auxdelicesdumaroc.com. Pour toute demande liée aux données personnelles ou pour
+            supprimer ces informations, répondez à ce message ou contactez le DPO à
+            <a href="mailto:dpo@auxdelicesdumaroc.com"> dpo@auxdelicesdumaroc.com</a>.
+          </Text>
         </Section>
       </Container>
     </Body>

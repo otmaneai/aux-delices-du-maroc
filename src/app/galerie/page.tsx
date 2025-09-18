@@ -78,7 +78,7 @@ const GaleriePage = () => {
             marocaine authentique.
           </p>
           <a href="/reservation" className="btn-cta">
-            Réserver une Table
+            <span>Réserver une Table</span>
           </a>
         </section>
       </main>

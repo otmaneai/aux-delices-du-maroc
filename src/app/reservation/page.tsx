@@ -5,6 +5,7 @@ import PageHero from "../components/PageHero";
 import Image from "next/image";
 import Link from "next/link";
 import { convexReact, api as convexApi } from "@/lib/convex";
+import { POLICY_VERSION } from "@/providers/cookie-consent-provider";
 
 interface FormData {
   name: string;
@@ -14,6 +15,7 @@ interface FormData {
   time: string;
   guests: string;
   message: string;
+  consent: boolean;
   hp?: string; // honeypot
 }
 
@@ -26,12 +28,14 @@ const ReservationPage = () => {
     time: "",
     guests: "1",
     message: "",
+    consent: false,
     hp: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(
     null
   );
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
 
   const createMessage =
@@ -45,19 +49,36 @@ const ReservationPage = () => {
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
     >
   ) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({ ...prevState, [name]: value }));
+    const { name } = e.target;
+    const value =
+      e.target instanceof HTMLInputElement && e.target.type === "checkbox"
+        ? e.target.checked
+        : e.target.value;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }) as FormData);
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
+    setErrorMessage(null);
+
+    if (!formData.consent) {
+      setErrorMessage(
+        "Veuillez accepter le traitement de vos données pour finaliser la réservation."
+      );
+      setSubmitStatus("error");
+      setIsSubmitting(false);
+      return;
+    }
 
     try {
       if (convexReady) {
         const subject = `Réservation: ${formData.date} ${formData.time} (${formData.guests} pers)`;
-        const composed = `Demande de réservation\n\nNom: ${formData.name}\nEmail: ${formData.email}\nTéléphone: ${formData.phone}\nDate: ${formData.date}\nHeure: ${formData.time}\nPersonnes: ${formData.guests}\n\nMessage:\n${formData.message || "—"}`;
+        const composed = `Demande de réservation\n\nNom: ${formData.name}\nEmail: ${formData.email}\nTéléphone: ${formData.phone}\nDate: ${formData.date}\nHeure: ${formData.time}\nPersonnes: ${formData.guests}\nConsentement: oui (version ${POLICY_VERSION})\n\nMessage:\n${formData.message || "—"}`;
         try {
           await createMessage!({
             name: formData.name,
@@ -66,6 +87,8 @@ const ReservationPage = () => {
             subject,
             message: composed,
             hp: formData.hp,
+            consent: formData.consent,
+            consentVersion: POLICY_VERSION,
           } as any);
           setSubmitStatus("success");
           setShowSuccessModal(true);
@@ -77,6 +100,7 @@ const ReservationPage = () => {
             time: "",
             guests: "1",
             message: "",
+            consent: false,
             hp: "",
           });
         } catch (e) {
@@ -92,6 +116,8 @@ const ReservationPage = () => {
               time: formData.time,
               guests: Number(formData.guests),
               message: formData.message,
+              consent: formData.consent,
+              consentVersion: POLICY_VERSION,
             }),
           });
           if (response.ok) {
@@ -105,6 +131,7 @@ const ReservationPage = () => {
               time: "",
               guests: "1",
               message: "",
+              consent: false,
               hp: "",
             });
           } else {
@@ -125,6 +152,8 @@ const ReservationPage = () => {
             time: formData.time,
             guests: Number(formData.guests),
             message: formData.message,
+            consent: formData.consent,
+            consentVersion: POLICY_VERSION,
           }),
         });
         if (response.ok) {
@@ -138,6 +167,7 @@ const ReservationPage = () => {
             time: "",
             guests: "1",
             message: "",
+            consent: false,
             hp: "",
           });
         } else {
@@ -152,7 +182,7 @@ const ReservationPage = () => {
   };
 
   const inputStyle =
-    "w-full p-4 bg-transparent border-2 border-gray-300 rounded-lg text-charcoal placeholder-gray-500 focus:outline-none focus:border-primary transition-colors";
+    "w-full rounded-[var(--radius-sm)] border border-[var(--border)] bg-white/80 p-4 text-charcoal placeholder:text-[var(--muted)] focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/60 transition-all";
 
   return (
     <div className="min-h-screen font-sans text-charcoal">
@@ -161,9 +191,9 @@ const ReservationPage = () => {
         subtitle="Garantissez votre place pour une expérience culinaire inoubliable. Nous sommes impatients de vous accueillir."
       />
 
-      <main className="container mx-auto px-4 pb-16 md:pb-24">
-        <div className="max-w-3xl mx-auto">
-          <form onSubmit={handleSubmit} className="space-y-8">
+      <main className="section-shell pb-24">
+        <div className="mx-auto max-w-3xl">
+          <form onSubmit={handleSubmit} className="surface-card space-y-8 p-8 md:p-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <label
@@ -311,10 +341,45 @@ const ReservationPage = () => {
               />
             </div>
 
+            <div className="flex items-start gap-2 rounded-md border border-gray-200/70 bg-white/40 p-3 text-sm text-charcoal/80">
+              <input
+                id="consent"
+                name="consent"
+                type="checkbox"
+                checked={formData.consent}
+                onChange={handleChange}
+                className="mt-1 h-4 w-4"
+                aria-describedby="reservation-consent-desc"
+              />
+              <div>
+                <label
+                  htmlFor="consent"
+                  className="font-medium text-sm text-charcoal"
+                >
+                  J’accepte que mes données soient utilisées pour gérer ma réservation
+                </label>
+                <p
+                  id="reservation-consent-desc"
+                  className="mt-1 text-xs leading-relaxed text-charcoal/70"
+                >
+                  Vos informations servent uniquement à traiter votre demande et pourront être
+                  conservées jusqu’à 3 ans. Aucune prospection ne sera envoyée sans votre accord.
+                  Consultez notre{' '}
+                  <Link
+                    href="/politique-de-confidentialite"
+                    className="text-primary hover:text-accent underline"
+                  >
+                    politique de confidentialité
+                  </Link>{' '}
+                  pour connaître vos droits.
+                </p>
+              </div>
+            </div>
+
             <div className="text-center pt-4">
               <button
                 type="submit"
-                className="bg-primary text-charcoal font-bold py-4 px-10 rounded-full text-lg hover:bg-primary/90 hover:text-accent transition-all duration-300 shadow-lg w-full md:w-auto disabled:bg-opacity-70 disabled:cursor-not-allowed hover:-translate-y-1 hover:shadow-xl"
+                className="btn-cta w-full md:w-auto justify-center"
                 disabled={isSubmitting}
               >
                 {isSubmitting
@@ -331,8 +396,8 @@ const ReservationPage = () => {
             )}
             {submitStatus === "error" && (
               <p className="text-center text-red-600 mt-4 text-lg">
-                Une erreur est survenue. Veuillez réessayer ou nous contacter
-                directement.
+                {errorMessage ||
+                  "Une erreur est survenue. Veuillez réessayer ou nous contacter directement."}
               </p>
             )}
           </form>
@@ -350,7 +415,7 @@ const ReservationPage = () => {
             <div className="relative bg-background rounded-2xl p-8 text-center">
               <div className="mx-auto mb-4">
                 <Image
-                  src="/gallery/logo.webp"
+                  src="/gallery/logo-new.png"
                   alt="Logo Aux Délices du Maroc"
                   width={120}
                   height={120}
@@ -366,9 +431,9 @@ const ReservationPage = () => {
               </p>
               <Link
                 href="/"
-                className="inline-block bg-primary text-charcoal font-bold py-4 px-10 rounded-full text-lg hover:bg-primary/90 hover:text-accent transition-all duration-300 shadow-lg hover:-translate-y-1 hover:shadow-xl"
+                className="btn-cta justify-center"
               >
-                Retour à l’accueil
+                <span>Retour à l’accueil</span>
               </Link>
             </div>
           </div>

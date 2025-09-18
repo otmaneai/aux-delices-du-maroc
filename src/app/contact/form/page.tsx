@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import Link from "next/link";
 import PageHero from "../../components/PageHero";
 import { convexReact, api } from "@/lib/convex";
+import { POLICY_VERSION } from "@/providers/cookie-consent-provider";
 
 type FormState = {
   name: string;
@@ -82,6 +84,8 @@ export default function ContactFormPage() {
         subject: form.subject,
         message: form.message,
         hp: form.hp,
+        consent: form.consent,
+        consentVersion: POLICY_VERSION,
       } as any);
       setStatus("success");
       setForm({
@@ -101,7 +105,7 @@ export default function ContactFormPage() {
   };
 
   const input =
-    "w-full p-4 bg-transparent border-2 border-gray-300 rounded-lg text-charcoal placeholder-gray-500 focus:outline-none focus:border-primary transition-colors";
+    "w-full rounded-[var(--radius-sm)] border border-[var(--border)] bg-white/80 p-4 text-charcoal placeholder:text-[var(--muted)] focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/60 transition-all";
 
   return (
     <div className="min-h-screen font-sans text-charcoal">
@@ -207,25 +211,45 @@ export default function ContactFormPage() {
               autoComplete="off"
             />
           </div>
-          <div className="flex items-start gap-3">
+          <div className="flex items-start gap-2 rounded-md border border-gray-200/70 bg-white/40 p-3 text-sm text-charcoal/80">
             <input
               id="consent"
               name="consent"
               type="checkbox"
               checked={form.consent}
               onChange={onChange}
-              className="mt-1"
+              className="mt-1 h-4 w-4"
               aria-describedby="consent-desc"
             />
             <div>
-              <label htmlFor="consent" className="font-semibold">
-                J'accepte la politique de confidentialité
+              <label htmlFor="consent" className="font-medium text-sm text-charcoal">
+                J'accepte que mes données soient traitées pour répondre à ma demande
               </label>
-              <p id="consent-desc" className="text-sm text-gray-600">
-                Nous utilisons vos informations pour répondre à votre demande.
+              <p
+                id="consent-desc"
+                className="mt-1 text-xs leading-relaxed text-charcoal/70"
+              >
+                Vos informations ne seront utilisées que pour vous répondre et ne seront jamais
+                partagées à des fins commerciales sans votre accord. Consultez notre{' '}
+                <Link
+                  href="/politique-de-confidentialite"
+                  className="text-primary hover:text-accent underline"
+                >
+                  politique de confidentialité
+                </Link>{' '}
+                pour en savoir plus.
               </p>
             </div>
           </div>
+          <p className="text-xs text-charcoal/60">
+            Vous pouvez exercer vos droits d’accès, de rectification ou de suppression en écrivant à{' '}
+            <a
+              href="mailto:dpo@auxdelicesdumaroc.com"
+              className="text-primary hover:text-accent underline"
+            >
+              dpo@auxdelicesdumaroc.com
+            </a>.
+          </p>
           {status === "error" && (
             <div role="alert" className="p-3 rounded bg-red-100 text-red-700">
               {error || "Une erreur est survenue."}
@@ -243,7 +267,7 @@ export default function ContactFormPage() {
             <button
               type="submit"
               disabled={status === "submitting"}
-              className="bg-primary text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-primary/90 hover:text-accent transition-all duration-300 shadow-lg disabled:opacity-70 hover:-translate-y-1 hover:shadow-xl"
+              className="btn-cta w-full md:w-auto justify-center"
             >
               {status === "submitting" ? "Envoi..." : "Envoyer le message"}
             </button>

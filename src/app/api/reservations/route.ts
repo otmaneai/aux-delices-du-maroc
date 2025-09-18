@@ -8,7 +8,17 @@ const CONTACT_TARGET_EMAIL =
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { name, email, phone, date, time, guests, message } = body;
+    const {
+      name,
+      email,
+      phone,
+      date,
+      time,
+      guests,
+      message,
+      consent,
+      consentVersion,
+    } = body;
 
     if (!name || !email || !phone || !date || !time || !guests) {
       return NextResponse.json(
@@ -16,6 +26,18 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
+
+    if (!consent) {
+      return NextResponse.json(
+        { error: "Consentement requis" },
+        { status: 400 }
+      );
+    }
+
+    const policyVersion =
+      typeof consentVersion === "string" && consentVersion.length > 0
+        ? consentVersion
+        : "2025-09-17";
 
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
@@ -41,6 +63,7 @@ export async function POST(req: NextRequest) {
           time,
           guests: String(guests),
           message,
+          consentVersion: policyVersion,
         }),
       });
 
