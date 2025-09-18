@@ -86,7 +86,7 @@ export default function Home() {
                     Expérience
                   </span>
                   <p className="mt-1 leading-relaxed">
-                    Savoir-faire familial, produits d’exception, service
+                    Savoir-faire traditionnel, produits d’exception, service
                     attentionné.
                   </p>
                 </div>

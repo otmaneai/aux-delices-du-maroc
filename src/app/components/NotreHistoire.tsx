@@ -16,7 +16,7 @@ const NotreHistoire = () => {
             </h2>
             <p className="text-large text-[var(--muted)]">
               Née dans les ruelles lumineuses de Fès, notre maison a grandi avec l’ambition de
-              sublimer les recettes familiales et de les inscrire dans une expérience haute
+              sublimer les recettes traditionnelles et de les inscrire dans une expérience haute
               couture. Aux Délices du Maroc, chaque assiette raconte un voyage soigneusement
               orchestré.
             </p>
