@@ -14,8 +14,22 @@ export default function Home() {
       <ActiveHeroBanner />
       {/* Hero Section */}
       <section className="relative w-full overflow-hidden">
-        <div className="blur-accent" style={{ top: "-140px", left: "-80px", background: "rgba(207, 175, 125, 0.4)" }} />
-        <div className="blur-accent" style={{ bottom: "-160px", right: "-120px", background: "rgba(140, 47, 42, 0.25)" }} />
+        <div
+          className="blur-accent"
+          style={{
+            top: "-140px",
+            left: "-80px",
+            background: "rgba(207, 175, 125, 0.4)",
+          }}
+        />
+        <div
+          className="blur-accent"
+          style={{
+            bottom: "-160px",
+            right: "-120px",
+            background: "rgba(140, 47, 42, 0.25)",
+          }}
+        />
         <div className="section-shell relative z-10 py-20 md:py-28">
           <div className="grid gap-12 md:grid-cols-[1.1fr_0.9fr] items-center">
             <div className="text-left space-y-7">
@@ -28,13 +42,15 @@ export default function Home() {
               </h1>
               <p className="text-large max-w-xl text-[var(--muted)] space-y-3">
                 <span className="block">
-                  Reconnue première cuisine au monde pour sa saveur, sa variété et son équilibre,
-                  la gastronomie marocaine est bien plus qu’un art culinaire : c’est un voyage à
-                  travers les épices, les couleurs et les traditions d’un pays millénaire.
+                  Reconnue première cuisine au monde pour sa saveur, sa variété
+                  et son équilibre, la gastronomie marocaine est bien plus qu’un
+                  art culinaire : c’est un voyage à travers les épices, les
+                  couleurs et les traditions d’un pays millénaire.
                 </span>
                 <span className="block">
-                  Aux Délices du Maroc, chaque plat est préparé avec passion, pour vous offrir
-                  l’authenticité et la noblesse d’une cuisine qui a conquis le cœur du monde.
+                  Aux Délices du Maroc, chaque plat est préparé avec passion,
+                  pour vous offrir l’authenticité et la noblesse d’une cuisine
+                  qui a conquis le cœur du monde.
                 </span>
                 <span className="block">
                   …Bienvenue dans notre maison, bienvenue au Maroc.
@@ -52,19 +68,26 @@ export default function Home() {
                 <div>
                   <span className="font-semibold text-charcoal">Horaires</span>
                   <p className="mt-1 leading-relaxed">
-                    Mardi – Dimanche<br />12:00–14:30 · 19:00–22:30
+                    Mardi – Dimanche
+                    <br />
+                    12:00–14:30 · 19:00–22:30
                   </p>
                 </div>
                 <div>
                   <span className="font-semibold text-charcoal">Adresse</span>
                   <p className="mt-1 leading-relaxed">
-                    268 Bd Henri Barbusse<br />91210 Draveil
+                    268 Bd Henri Barbusse
+                    <br />
+                    91210 Draveil
                   </p>
                 </div>
                 <div>
-                  <span className="font-semibold text-charcoal">Expérience</span>
+                  <span className="font-semibold text-charcoal">
+                    Expérience
+                  </span>
                   <p className="mt-1 leading-relaxed">
-                    Savoir-faire familial, produits d’exception, service attentionné.
+                    Savoir-faire familial, produits d’exception, service
+                    attentionné.
                   </p>
                 </div>
               </div>
@@ -88,7 +111,9 @@ export default function Home() {
                   20+
                 </div>
                 <div className="text-sm text-[var(--muted)]">
-                  <p className="font-semibold text-charcoal">Années de tradition</p>
+                  <p className="font-semibold text-charcoal">
+                    Années de tradition
+                  </p>
                   <p>Famille Rafiki au service des saveurs marocaines.</p>
                 </div>
               </div>
@@ -110,10 +135,11 @@ export default function Home() {
                 L’art de recevoir à la marocaine, revisité avec audace
               </h2>
               <p className="text-large mx-auto max-w-3xl text-[var(--muted)]">
-                Dans notre demeure draveilloise, l’héritage culinaire de Fès dialogue avec les codes
-                des grandes tables internationales. Service cérémonial, produits sourcés auprès de
-                partenaires d’exception, accords mets-thés ou mets-vins : chaque détail respire le
-                raffinement.
+                Dans notre demeure draveilloise, l’héritage culinaire de Fès
+                dialogue avec les codes des grandes tables internationales.
+                Service cérémonial, produits sourcés auprès de partenaires
+                d’exception, accords mets-thés ou mets-vins : chaque détail
+                respire le raffinement.
               </p>
             </div>
             <div className="grid gap-8 md:grid-cols-3">
@@ -123,8 +149,9 @@ export default function Home() {
                   Des mélanges signature, torréfiés et assemblés sur place.
                 </p>
                 <p className="text-[var(--muted)] text-sm leading-relaxed">
-                  Safran de Taliouine, cumin d’Essaouira et fleur d’oranger de Marrakech composent
-                  des bases aromatiques subtiles qui signent nos tajines et couscous.
+                  Safran de Taliouine, cumin d’Essaouira et fleur d’oranger de
+                  Marrakech composent des bases aromatiques subtiles qui signent
+                  nos tajines et couscous.
                 </p>
               </div>
               <div className="surface-card space-y-4 p-7 text-left">
@@ -133,8 +160,9 @@ export default function Home() {
                   Une table confidentielle pour vos instants précieux.
                 </p>
                 <p className="text-[var(--muted)] text-sm leading-relaxed">
-                  Dîners d’affaires, célébrations intimistes ou menus dégustation sur-mesure : nous
-                  dessinons une expérience ajustée à chacun de vos événements.
+                  Dîners d’affaires, célébrations intimistes ou menus
+                  dégustation sur-mesure : nous dessinons une expérience ajustée
+                  à chacun de vos événements.
                 </p>
               </div>
               <div className="surface-card space-y-4 p-7 text-left">
@@ -143,15 +171,14 @@ export default function Home() {
                   Mise en scène contemporaine de l’hospitalité marocaine.
                 </p>
                 <p className="text-[var(--muted)] text-sm leading-relaxed">
-                  Textiles brodés, luminaire artisanal et playlists exclusives composent un cocon
-                  chaleureux où l’on savoure le temps long.
+                  Textiles brodés, luminaire artisanal et playlists exclusives
+                  composent un cocon chaleureux où l’on savoure le temps long.
                 </p>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
 
       {/* Notre Histoire Section */}
       <FadeIn delay={0.4}>
@@ -186,9 +213,9 @@ export default function Home() {
                 Savourez nos créations chez vous
               </h3>
               <p className="text-large mx-auto max-w-2xl text-[var(--muted)]">
-                Nos partenaires sélectionnés assurent la même exigence de qualité du restaurant à
-                votre table. Dîner intimiste, réception privée ou soirée conviviale : laissez-nous
-                voyager jusqu’à vous.
+                Nos partenaires sélectionnés assurent la même exigence de
+                qualité du restaurant à votre table. Dîner intimiste, réception
+                privée ou soirée conviviale : laissez-nous voyager jusqu’à vous.
               </p>
             </div>
             <div className="flex flex-col items-center gap-4 md:flex-row md:justify-center md:gap-6">
@@ -196,7 +223,7 @@ export default function Home() {
                 href="https://deliveroo.fr/fr/menu/paris/draveil/aux-delices-du-maroc"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex w-full max-w-xs items-center justify-center gap-3 rounded-full border-2 border-green-500 bg-green-500 py-3 text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-green-600"
+                className="btn-cta btn-cta--outline"
               >
                 Deliveroo
               </a>
@@ -204,7 +231,7 @@ export default function Home() {
                 href="https://www.ubereats.com/fr/store/aux-delices-du-maroc/IRzYO8SXXVOa75_CceRnKA?diningMode=DELIVERY"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex w-full max-w-xs items-center justify-center gap-3 rounded-full border-2 border-black bg-black py-3 text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:border-gray-800"
+                className="btn-cta"
               >
                 Uber Eats
               </a>
