@@ -204,7 +204,7 @@ export default function Home() {
                 href="https://www.ubereats.com/fr/store/aux-delices-du-maroc/IRzYO8SXXVOa75_CceRnKA?diningMode=DELIVERY"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex w-full max-w-xs items-center justify-center gap-3 rounded-full border-2 border-black bg-black py-3 text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-black"
+                className="flex w-full max-w-xs items-center justify-center gap-3 rounded-full border-2 border-black bg-black py-3 text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:border-gray-800"
               >
                 Uber Eats
               </a>
