@@ -19,14 +19,12 @@ const galleryImages = [
   { src: "/gallery/7.webp", alt: "Détail d'un plat marocain" },
   { src: "/gallery/8.webp", alt: "Détail de la décoration marocaine" },
   { src: "/gallery/couscous.webp", alt: "Gros plan sur un plat de couscous" },
-  { src: "/gallery/desserts.webp", alt: "Plateau de desserts marocains" },
   {
     src: "/gallery/entrees-chaudes.webp",
     alt: "Assortiment d'entrées chaudes",
   },
   { src: "/gallery/entrees-froides.webp", alt: "Plateau d'entrées froides" },
   { src: "/gallery/grillades.webp", alt: "Brochettes de grillades" },
-  { src: "/gallery/salades.webp", alt: "Salade marocaine colorée" },
   { src: "/gallery/tajines.webp", alt: "Tajine d'agneau aux pruneaux" },
 ];
 
