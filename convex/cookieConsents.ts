@@ -1,4 +1,4 @@
-import { mutation } from "./_generated/server";
+import { mutation, MutationCtx } from "./_generated/server";
 import { v } from "convex/values";
 
 export const record = mutation({
@@ -10,7 +10,7 @@ export const record = mutation({
     ip: v.optional(v.string()),
     userAgent: v.optional(v.string()),
   },
-  handler: async (ctx, args) => {
+  handler: async (ctx: MutationCtx, args) => {
     return await ctx.db.insert("cookie_consents", {
       analytics: args.analytics,
       marketing: args.marketing,
