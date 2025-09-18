@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Aux Délices du Maroc" }],
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
     apple: "/icon.png",
   },
   openGraph: {
