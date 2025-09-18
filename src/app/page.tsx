@@ -114,7 +114,9 @@ export default function Home() {
                   <p className="font-semibold text-charcoal">
                     Années de tradition
                   </p>
-                  <p>Famille Rafiki au service des saveurs marocaines.</p>
+                  <p>
+                    L'authenticité des saveurs marocaines, une tradition de goût.
+                  </p>
                 </div>
               </div>
             </div>
